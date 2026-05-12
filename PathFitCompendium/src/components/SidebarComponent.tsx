@@ -1,4 +1,5 @@
 import "./sidebar.css";
+import { Link } from "lucide-react";
 
 import {
   Home,
@@ -47,13 +48,15 @@ export default function Sidebar({
 
       {/* NAVIGATION */}
       <nav className="sidebar-nav">
-        <a href="#" className="sidebar-item active">
+
+  
+        <a href="/home" className="sidebar-item active">
           <Home size={22} />
 
           {isOpen && <span>Home</span>}
         </a>
 
-        <a href="#" className="sidebar-item">
+        <a href="/intro" className="sidebar-item">
           <UserRound size={22} />
 
           {isOpen && <span>Introduction</span>}

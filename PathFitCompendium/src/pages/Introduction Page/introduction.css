@@ -1,0 +1,58 @@
+.hero-intro{
+  min-height: 100vh;
+  position: relative;
+}
+
+.overlay-intro {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 30px 60px;
+  position: relative;
+}
+.intro-content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  color: white;
+}
+
+/* TITLE */
+.intro-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* TEXT BODY (NO CARD ANYMORE) */
+.intro-box {
+  line-height: 2;
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* PARAGRAPHS */
+.intro-box p {
+  margin-bottom: 22px;
+  text-align: justify;
+}
+
+/* MOBILE READABILITY */
+@media (max-width: 900px) {
+  .intro-content {
+    padding: 0 18px;
+  }
+
+  .intro-title {
+    font-size: 2.2rem;
+  }
+
+  .intro-box {
+    font-size: 1.1rem;
+    line-height: 1.9;
+  }
+}
+.intro-box p {
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.9);
+}
