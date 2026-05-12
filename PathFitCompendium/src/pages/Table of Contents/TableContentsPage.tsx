@@ -8,8 +8,8 @@ import { useState, useRef, useEffect} from 'react';
 function TableContentsPage()
 {
         const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-    const touchStartX = useRef(0);
-    const touchEndX = useRef(0);
+        const touchStartX = useRef(0);
+         const touchEndX = useRef(0);
       useEffect(() => {
         const handleTouchStart = (e: TouchEvent) => {
           touchStartX.current = e.touches[0].clientX;
@@ -52,7 +52,7 @@ function TableContentsPage()
         <>
         <div className='intropage'>
             <div className='hero'>
-                <div className='overlay'>
+                <div className='overlay-tablecontent'>
                                 {/* HEADER */}
                         <div className="hero-header">
                         <header className="header">
@@ -67,11 +67,139 @@ function TableContentsPage()
                         </div>
                         </header>
                         </div>
+
+
+                        <main className='main-content'>
+                            <div className="container">
+                            
+                            <h1 className="title-tablecontent">Table of Contents</h1>
+                            <div className="accent-line"></div>
+
+                            <div className="toc-list">
+                            <button className="toc-item">
+                                <div className="toc-left">
+                                <h3>Cover Page</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 1</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </button>
+
+                            <button className="toc-item">
+                                <div className="toc-left">
+                                <h3>Introduction & Abstract</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 2</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </button>
+
+                            <button className="toc-item">
+                                <div className="toc-left">
+                                <h3>Table of Contents</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 3</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </button>
+
+                            <button className="toc-item">
+                                <div className="toc-left">
+                                <h3>Introduction of Members</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 4</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </button>
+
+                            <button className="toc-item">
+                                <div className="toc-left">
+                                <h3>Student Athlete Profiles & PAR-Q</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 5 & 6</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </button>
+
+                            <button className="toc-item">
+                                <div className="toc-left">
+                                <h3>Group Works</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 7</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </button>
+
+                            <button className="toc-item">
+                                <div className="toc-left">
+                                <h3>Individual Works</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 8</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </button>
+                            
+                            <button className="toc-item">
+                                <div className="toc-left">
+                                <h3>Reflections</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 9</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </button>
+                            
+                            </div>
+
+                            
+
+                            <div className="info-card">
+                            <h2>Document Information</h2>
+
+                            <div className="info-grid">
+                                <div>
+                                <p className="label">Group Number</p>
+                                <p className="value">Group 5</p>
+                                </div>
+
+                                <div>
+                                <p className="label">Total Members</p>
+                                <p className="value">6</p>
+                                </div>
+
+                                <div>
+                                <p className="label">Course Code</p>
+                                <p className="value">PATHFIT 2</p>
+                                </div>
+
+                                <div>
+                                <p className="label">Submission Date</p>
+                                <p className="value">May 15, 2026</p>
+                                </div>
+                            </div>
+                            </div>
+
+                        </div>
+                                </main>
+
                 </div>
             </div>
-        </div>
+
+
+
+
            
 
+        </div>
+
+ 
 
 
 

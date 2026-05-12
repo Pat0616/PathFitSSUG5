@@ -68,7 +68,7 @@ export default function Sidebar({
           {isOpen && <span>Table of Contents</span>}
         </a>
 
-        <a href="#" className="sidebar-item">
+        <a href="/members" className="sidebar-item">
           <Users size={22} />
 
           {isOpen && <span>Members</span>}
