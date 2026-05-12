@@ -17,13 +17,13 @@
 
 .hero {
   min-height: 100vh;
-  background: url("../assets/SSUbg.png") center/cover no-repeat;
+  background: url("../assets/hdSSU.png") center/cover no-repeat;
   position: relative;
 }
 
 .overlay {
   min-height: 100vh;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.8);
   padding: 30px 60px;
   position: relative;
 }
@@ -126,12 +126,30 @@
 /* GRID */
 
 .content-grid {
-  display: grid;
+   display: grid;
   grid-template-columns: 1fr 1.8fr;
-  gap: 80px;
-  align-items: stretch;
+  gap: 60px;
+  align-items: start; /* was stretch */
   width: 100%;
 }
+
+.quote-section {
+  margin-top: 50px;
+  text-align: center;
+
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 2;
+
+  color: rgba(255, 255, 255, 0.85);
+
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px 10px;
+}
+
 
 /* LEFT SIDE */
 
@@ -244,7 +262,7 @@
 
   padding: 80px 20px 50px;
 
-  margin-top: 80px;
+  margin-top: 40px;
 
   color: white;
 }
@@ -415,3 +433,4 @@
     left: 20px;
   }
 }
+
