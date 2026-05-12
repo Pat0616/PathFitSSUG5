@@ -3,6 +3,7 @@ import './App.css'
 import HomePage from './pages/HomePage'
 import IntroductionPage from './pages/Introduction Page/IntroductionPage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import TableContentsPage from './pages/Table of Contents/TableContentsPage'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path="/home" element={<HomePage></HomePage>}></Route>
       <Route path="/intro" element={<IntroductionPage></IntroductionPage>}></Route>
+      <Route path="/contents" element={<TableContentsPage></TableContentsPage>}></Route>
     </Routes>
    </Router>
   )

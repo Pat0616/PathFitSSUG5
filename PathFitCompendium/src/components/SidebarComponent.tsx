@@ -50,7 +50,7 @@ export default function Sidebar({
       <nav className="sidebar-nav">
 
   
-        <a href="/home" className="sidebar-item active">
+        <a href="/home" className="sidebar-item">
           <Home size={22} />
 
           {isOpen && <span>Home</span>}
@@ -62,7 +62,7 @@ export default function Sidebar({
           {isOpen && <span>Introduction</span>}
         </a>
 
-        <a href="#" className="sidebar-item">
+        <a href="/contents" className="sidebar-item">
           <List size={22} />
 
           {isOpen && <span>Table of Contents</span>}
