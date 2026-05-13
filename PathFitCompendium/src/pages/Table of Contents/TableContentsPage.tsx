@@ -183,7 +183,7 @@ function TableContentsPage()
 
                                 <div>
                                 <p className="label">Total Members</p>
-                                <p className="value">6</p>
+                                <p className="value">7</p>
                                 </div>
 
                                 <div>
