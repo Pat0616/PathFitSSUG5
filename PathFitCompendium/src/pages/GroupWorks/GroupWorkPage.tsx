@@ -81,6 +81,7 @@ function GroupWorkPage()
   <div className="gwc-list">
 
     <div className="gwc-card">
+        <div className='filler-div1'></div>
       <h2 className="gwc-activity-title">Week 1 Physical Fitness Activities</h2>
 
       <p className="gwc-label">Short Description</p>
