@@ -107,11 +107,11 @@ export default function Sidebar({
       </nav>
 
       {/* BOTTOM */}
-      <div className="sidebar-bottom">
+      <div className="sidebar-bottom1">
        
       </div>
 
-      <div className="sidebar-bottom">
+      <div className="sidebar-bottom1">
        
       </div>
     </aside>

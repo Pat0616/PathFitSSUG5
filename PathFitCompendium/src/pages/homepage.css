@@ -104,8 +104,8 @@ padding-top: 1rem;
 
 .main-content {
   width: 100%;
-  max-width: 1450px;
-  margin: auto;
+  max-width: 80%;
+  margin: auto;  
 }
 
 .portfolio-title {
@@ -435,3 +435,9 @@ padding-top: 1rem;
   }
 }
 
+@media(min-width: 1024px)
+{
+    .content-grid {
+         width: 100%;
+        }
+}   
