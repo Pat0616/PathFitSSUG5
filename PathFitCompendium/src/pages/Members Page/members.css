@@ -14,8 +14,8 @@
 
 /* TITLE */
 .title {
-  font-size: 3.5rem;
-
+  font-size: 2rem;
+    
   font-weight: 900;
 
   margin-bottom: 10px;
@@ -229,54 +229,56 @@
 @media (min-width: 1024px) {
 
   .container {
-    padding-top: 60px;
+    padding-top: 50px;
   }
 
   .grid {
-    max-width: 1050px;
+    max-width: 850px; /* smaller overall card width */
+    gap: 3rem; /* less spacing between cards */
+  }
 
-    gap: 5rem;
+  .card {
+    border-radius: 18px;
   }
 
   .image-box {
-    height: 720px;
+    height: 500px; /* was 720px */
   }
 
   .card-body {
-    padding: 34px;
+    padding: 24px; /* was 34px */
+    gap: 18px;
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 3.2rem; /* was 4rem */
   }
 
   .subtitle {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
   .name {
-    font-size: 2.4rem;
+    font-size: 1.8rem; /* was 2.4rem */
   }
 
   .course {
-    font-size: 1.12rem;
+    font-size: 1rem;
   }
 
   .info p {
-    font-size: 1.08rem;
+    font-size: 1rem;
   }
 
   .quote {
-    font-size: 1.12rem;
-
-    line-height: 2;
+    font-size: 1rem;
+    line-height: 1.75; /* tighter */
   }
 
   .tag,
   .tag-accent {
-    font-size: 1rem;
-
-    padding: 10px 16px;
+    font-size: 0.9rem;
+    padding: 8px 14px;
   }
 }
 
@@ -324,4 +326,10 @@
   .tag-accent {
     font-size: 0.82rem;
   }
+}
+
+.title-members
+{
+    font-size: 3rem;
+  
 }

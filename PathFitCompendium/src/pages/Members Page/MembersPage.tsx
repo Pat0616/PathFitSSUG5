@@ -83,7 +83,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     <div className="container">
 
-    <h1 className="title">Introduction of Members</h1>
+    <h2 className="title-members">Introduction of Members</h2>
     <div className="accent-line"></div>
     <p className="subtitle">Arranged alphabetically by surname</p>
 
