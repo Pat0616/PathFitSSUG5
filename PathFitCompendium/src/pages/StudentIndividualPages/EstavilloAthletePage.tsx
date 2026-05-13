@@ -6,6 +6,8 @@ import { useState, useRef, useEffect} from 'react';
 import EstavillaProfile from '../../assets/memberProfiles/estavilloprofile.png'
 import EstavillaParq from '../../assets/memberPARQ/estavilloparq.png'
  
+import SSULogo from '../../assets/ssuLogoClear.svg'
+
 
 function EstavilloAthletePage()
 {
@@ -59,7 +61,7 @@ function EstavilloAthletePage()
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                            <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>

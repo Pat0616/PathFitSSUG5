@@ -3,7 +3,7 @@ import { GraduationCap } from 'lucide-react'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 import './indworkmember.css'
-
+import SSULogo from '../../assets/ssuLogoClear.svg'
 import Activity1 from '../../assets/individualWorks/lacupantowork1.png'
 import Activity2 from '../../assets/individualWorks/lacupantowork2.png'
 
@@ -59,7 +59,7 @@ function LacupantoWorksPage()
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                          <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>

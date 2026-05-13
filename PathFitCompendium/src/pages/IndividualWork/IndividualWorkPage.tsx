@@ -12,7 +12,7 @@ import EstavilloImg from '../../assets/memberPortraits/Geneva.png'
 import FerrerasImg from '../../assets/memberPortraits/Ferreras.png'
 import GarraImg from '../../assets/memberPortraits/Garra.png'
 import LacupantoImg from '../../assets/memberPortraits/Lacupanto.png'
-
+import SSULogo from '../../assets/ssuLogoClear.svg'
 function IndividualWorkPage()
 {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -65,7 +65,7 @@ function IndividualWorkPage()
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                             <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>

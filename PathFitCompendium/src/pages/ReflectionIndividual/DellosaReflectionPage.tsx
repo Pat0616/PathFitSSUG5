@@ -5,6 +5,9 @@ import { useState, useRef, useEffect} from 'react';
 import DellosaImg from '../../assets/memberPortraits/Dellosa.png'
 
 
+import SSULogo from '../../assets/ssuLogoClear.svg'
+
+
 function DellosaReflectionPage()
 {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -57,7 +60,7 @@ function DellosaReflectionPage()
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                            <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>

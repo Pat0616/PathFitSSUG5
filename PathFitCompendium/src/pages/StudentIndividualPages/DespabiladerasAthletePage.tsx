@@ -6,6 +6,9 @@ import { useState, useRef, useEffect} from 'react';
 import DespabiladerasProfile from '../../assets/memberProfiles/despabiladerasprofile.png'
 import DespabiladerasParq from '../../assets/memberPARQ/despabiladerasparq.png'
 
+import SSULogo from '../../assets/ssuLogoClear.svg'
+
+
 function DespabiladerasAthletePage(){
 
 const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -58,7 +61,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                            <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>

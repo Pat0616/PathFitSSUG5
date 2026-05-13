@@ -6,6 +6,8 @@ import { useState, useRef, useEffect} from 'react';
 import DonquilloProfile from '../../assets/memberProfiles/donquilloprofile.png'
 import DonquilloParq from '../../assets/memberPARQ/donquilloparq.png'
 
+import SSULogo from '../../assets/ssuLogoClear.svg'
+
 
 function DonquilloAthletePage()
 {
@@ -59,7 +61,7 @@ function DonquilloAthletePage()
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                            <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>

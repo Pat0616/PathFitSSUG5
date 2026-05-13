@@ -4,6 +4,7 @@ import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
 import FerrerasImg from '../../assets/memberPortraits/Ferreras.png'
+import SSULogo from '../../assets/ssuLogoClear.svg'
 
 
 function FerreraseflectionPage()
@@ -58,7 +59,7 @@ function FerreraseflectionPage()
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                           <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>

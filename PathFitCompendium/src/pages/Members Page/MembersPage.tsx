@@ -12,6 +12,8 @@ import Ferreras from "../../assets/memberPortraits/Ferreras.png"
 import Garra from "../../assets/memberPortraits/Garra.png"
 import Lacupanto from "../../assets/memberPortraits/Lacupanto.png"
 
+import SSULogo from '../../assets/ssuLogoClear.svg'
+
 
 function MembersPage(){
 const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -64,7 +66,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                            <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>

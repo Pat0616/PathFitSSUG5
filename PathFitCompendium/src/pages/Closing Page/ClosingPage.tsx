@@ -1,6 +1,7 @@
 import { GraduationCap } from "lucide-react";
 import Sidebar from "../../components/SidebarComponent";
 import { useState, useRef, useEffect } from "react";
+import SSULogo from '../../assets/ssuLogoClear.svg'
 
 function ClosingPage() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -44,7 +45,7 @@ function ClosingPage() {
             <div className="hero-header">
               <header className="header">
                 <div className="logo-container">
-                  <GraduationCap size={60} className="logo" />
+                  <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                   <div className="school-details-intro">
                     <h1>Sorsogon State University</h1>

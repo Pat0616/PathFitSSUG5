@@ -6,6 +6,9 @@ import { useState, useRef, useEffect} from 'react';
 import LacupantoProfile from '../../assets/memberProfiles/lacupantoprofile.png'
 import LacupantoParq from '../../assets/memberPARQ/lacupantoparq.png'
 
+import SSULogo from '../../assets/ssuLogoClear.svg'
+
+
 function LacupantoAthletePage()
 {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -58,7 +61,7 @@ function LacupantoAthletePage()
                         <div className="hero-header">
                         <header className="header">
                         <div className="logo-container">
-                            <GraduationCap size={60} className="logo" />
+                            <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
                             <div className="school-details">
                             <h1>Sorsogon State University</h1>
