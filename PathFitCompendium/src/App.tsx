@@ -31,12 +31,13 @@ import EstavilloWorksPage from './pages/IndividualWorkMembers/EstavilloIndWork'
 import FerrerasWorksPage from './pages/IndividualWorkMembers/FerrerasIndWork'
 import GarraWorksPage from './pages/IndividualWorkMembers/GarraIndWork'
 import LacupantoWorksPage from './pages/IndividualWorkMembers/LacupantoIndWork'
+import EstavilloReflectionPage from './pages/ReflectionIndividual/EstavilloReflectionPage'
 
 function App() {
 
 
   return (
-   <Router>
+   <Router basename="/PathFitSSUG5/">
     <ScrollToTop />
     <Routes>
       <Route path="/" element={<Navigate to='/home' replace></Navigate>}></Route>
@@ -66,19 +67,22 @@ function App() {
       <Route path="/studentreflections/1" element={<DellosaReflectionPage></DellosaReflectionPage>}></Route>
       <Route path="/studentreflections/2" element={<DespabiladerasReflectionPage/>}></Route>
       <Route path="/studentreflections/3" element={<DonquilloReflectionPage/>}></Route>
-      <Route path="/studentreflections/4" element={<EstavilloAthletePage/>}></Route>
+      <Route path="/studentreflections/4" element={<EstavilloReflectionPage/>}></Route>
       <Route path="/studentreflections/5" element={<FerreraseflectionPage/>}></Route>
       <Route path="/studentreflections/6" element={<GarraReflectionPage/>}></Route>
       <Route path="/studentreflections/7" element={<LacupantoReflectionPage></LacupantoReflectionPage>}></Route>
 
 
-      <Route path="individualwork/1" element={<DellosaWorksPage/>}></Route>
-      <Route path="individualwork/2" element={<DespabiladerasWorksPage/>}></Route>
-      <Route path="individualwork/3" element={<DonquilloWorksPage/>}></Route>
-      <Route path="individualwork/4" element={<EstavilloWorksPage/>}></Route>
-      <Route path="individualwork/5" element={<FerrerasWorksPage/>}></Route>
-      <Route path="individualwork/6" element={<GarraWorksPage/>}></Route>
-      <Route path="individualwork/7" element={<LacupantoWorksPage/>}></Route>
+      <Route path="/individualwork/1" element={<DellosaWorksPage/>}></Route>
+      <Route path="/individualwork/2" element={<DespabiladerasWorksPage/>}></Route>
+      <Route path="/individualwork/3" element={<DonquilloWorksPage/>}></Route>
+      <Route path="/individualwork/4" element={<EstavilloWorksPage/>}></Route>
+      <Route path="/individualwork/5" element={<FerrerasWorksPage/>}></Route>
+      <Route path="/individualwork/6" element={<GarraWorksPage/>}></Route>
+      <Route path="/individualwork/7" element={<LacupantoWorksPage/>}></Route>
+
+
+       <Route path="*" element={<Navigate to="/home" replace />} />
     </Routes>
    </Router>
   )

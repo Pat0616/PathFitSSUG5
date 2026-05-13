@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Pat0616/PathFitSSUG6/",
+  "homepage": "https://github.com/Pat0616/PathFitSSUG5/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

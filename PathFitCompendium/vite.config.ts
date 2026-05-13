@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/PathFitSSUG6/',
+  base: '/PathFitSSUG5/',
   plugins: [react()],
 })
