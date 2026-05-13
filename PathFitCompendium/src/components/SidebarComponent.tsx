@@ -44,12 +44,9 @@ export default function Sidebar({
             </div>
           )}
         </div>
-      </div>
 
-      {/* NAVIGATION */}
-      <nav className="sidebar-nav">
 
-  
+
         <Link to="/home" className="sidebar-item">
           <Home size={22} />
 
@@ -103,6 +100,13 @@ export default function Sidebar({
 
           {isOpen && <span>Closing Page</span>}
         </Link>
+      </div>
+
+      {/* NAVIGATION */}
+      <nav className="sidebar-nav">
+
+  
+        
 
       </nav>
 
