@@ -16,7 +16,7 @@ import SSULogo from '../../assets/ssuLogoClear.svg'
 
 
 function MembersPage(){
-const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const touchStartX = useRef(0);
     const touchEndX = useRef(0);
       useEffect(() => {
@@ -155,7 +155,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
             <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">an Entrepreneurship student who enjoys turning simple ideas into meaningful goals. I’m someone who values creativity, independence, and continuous self-improvement. I like exploring opportunities that challenge my skills and help me become more confident in dealing with people and real-life situations. I believe success starts with determination, patience, and the courage to keep trying even when things get difficult.</p>
+          <p className="quote">An Entrepreneurship student who enjoys turning simple ideas into meaningful goals. I’m someone who values creativity, independence, and continuous self-improvement. I like exploring opportunities that challenge my skills and help me become more confident in dealing with people and real-life situations. I believe success starts with determination, patience, and the courage to keep trying even when things get difficult.</p>
 
           <div className="tags-section">
             <p className="tag-title">Hobbies</p>
@@ -206,7 +206,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
             <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">first-year Bachelor of Science in Entrepreneurship student from Block 1C. I am a goal-oriented individual who values continuous growth in both academic and personal development. I believe that success is achieved through discipline, consistency, and perseverance rather than instant results. As a student, I strive to become responsible, focused, and committed in fulfilling my responsibilities while continuously improving myself through learning and experience.</p>
+          <p className="quote">A First-Year Bachelor of Science in Entrepreneurship student from Block 1C. I am a goal-oriented individual who values continuous growth in both academic and personal development. I believe that success is achieved through discipline, consistency, and perseverance rather than instant results. As a student, I strive to become responsible, focused, and committed in fulfilling my responsibilities while continuously improving myself through learning and experience.</p>
 
           <p className="quote">I also believe in maintaining balance between academics, personal interests, and physical wellness to build a productive and healthy lifestyle. Through dedication and self-discipline, I aim to achieve my goals while developing confidence, resilience, and integrity in all aspects of life. </p>
 
@@ -261,7 +261,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
             <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote"> 18 years old, and I was born on August 14, 2007. I am from Rizal, Gubat, Sorsogon. I am the youngest among 8 siblings, which helped me become friendly, understanding, and family-oriented.</p>
+          <p className="quote"> I'm 18 years old, and I was born on August 14, 2007. I am from Rizal, Gubat, Sorsogon. I am the youngest among 8 siblings, which helped me become friendly, understanding, and family-oriented.</p>
 
           <p className='quote'>My hobbies are taking pictures and playing online games whenever I have free time. I enjoy capturing beautiful moments and places through photography because it helps me express my creativity. I also like online games because they help me relax and enjoy my free time with friends.</p>
 
@@ -314,7 +314,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
             <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">a first-year Bachelor of Science in Entrepreneurship student from Block 1C. I believe that maintaining physical fitness and a structured routine is essential for staying focused and disciplined in my studies. I follow a consistent workout plan four times a week, with a primary focus on building strength and staying active.</p>
+          <p className="quote">A First-Year Bachelor of Science in Entrepreneurship student from Block 1C. I believe that maintaining physical fitness and a structured routine is essential for staying focused and disciplined in my studies. I follow a consistent workout plan four times a week, with a primary focus on building strength and staying active.</p>
 
           <p className='quote'>‎To balance my busy academic life, I prioritize a slow morning routine and regular journaling, which allows me to process my thoughts and start each day with a clear mind. My fitness goal is to remain consistent with my training while maintaining the mental clarity that comes from my writing and self-care habits. Ultimately, I am working hard to finish my degree and achieve my goal of having my own apartment, where I can continue to lead an organized, healthy, and intentional life.</p>
 
