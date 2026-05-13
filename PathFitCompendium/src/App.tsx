@@ -21,6 +21,7 @@ import FerreraseflectionPage from './pages/ReflectionIndividual/FerrerasReflecti
 import GarraReflectionPage from './pages/ReflectionIndividual/GarraReflectionPage'
 import LacupantoReflectionPage from './pages/ReflectionIndividual/LacupantoReflectionPage'
 import ClosingPage from './pages/Closing Page/ClosingPage'
+import GroupWorkPage from './pages/GroupWorks/GroupWorkPage'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Route path="/contents" element={<TableContentsPage></TableContentsPage>}></Route>
       <Route path="/members" element={<MembersPage></MembersPage>}></Route>
       <Route path="/studentprofile" element={<StudentProfilePage></StudentProfilePage>}></Route>
+      <Route path="/groupworks" element={<GroupWorkPage/>}></Route>
       <Route path="/reflections" element={<ReflectionsPage></ReflectionsPage>}></Route>
       <Route path="/closing" element={<ClosingPage></ClosingPage>}></Route>
 

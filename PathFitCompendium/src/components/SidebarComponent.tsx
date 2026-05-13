@@ -82,13 +82,13 @@ export default function Sidebar({
           {isOpen && <span>Athelete Profiles</span>}
         </Link>
 
-        <Link to="#" className="sidebar-item">
+        <Link to="/groupworks" className="sidebar-item">
           <FolderOpen size={22} />
 
           {isOpen && <span>Group Works</span>}
         </Link>
 
-        <Link to="" className="sidebar-item">
+        <Link to="/individualworks" className="sidebar-item">
            <FilePen  size={22} />
 
           {isOpen && <span>Individual Works</span>}
