@@ -3,7 +3,7 @@ import './reflectionindividual.css'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import LacupantoImg from '../../assets/memberPortraits/Lacupanto.png'
+import LacupantoImg from '../../assets/memberPortraits/Lacupanto.webp'
 import SSULogo from '../../assets/ssuLogoClear.svg'
 
 

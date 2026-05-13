@@ -3,7 +3,7 @@ import './reflectionindividual.css'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import GarraImg from '../../assets/memberPortraits/Garra.png'
+import GarraImg from '../../assets/memberPortraits/Garra.webp'
 import SSULogo from '../../assets/ssuLogoClear.svg'
 
 

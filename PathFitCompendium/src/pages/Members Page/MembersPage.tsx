@@ -4,13 +4,13 @@ import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
 
-import DellosaImg from "../../assets/memberPortraits/Dellosa.png"
-import DespabiladerasImg from "../../assets/memberPortraits/Despibeladeras.png"
-import DonquilloImg from "../../assets/memberPortraits/Donquillo.png"
-import Estavillo from "../../assets/memberPortraits/Geneva.png"
-import Ferreras from "../../assets/memberPortraits/Ferreras.png"
-import Garra from "../../assets/memberPortraits/Garra.png"
-import Lacupanto from "../../assets/memberPortraits/Lacupanto.png"
+import DellosaImg from "../../assets/memberPortraits/Dellosa.webp"
+import DespabiladerasImg from "../../assets/memberPortraits/Despibeladeras.webp"
+import DonquilloImg from "../../assets/memberPortraits/Donquillo.webp"
+import Estavillo from "../../assets/memberPortraits/Geneva.webp"
+import Ferreras from "../../assets/memberPortraits/Ferreras.webp"
+import Garra from "../../assets/memberPortraits/Garra.webp"
+import Lacupanto from "../../assets/memberPortraits/Lacupanto.webp"
 
 import SSULogo from '../../assets/ssuLogoClear.svg'
 

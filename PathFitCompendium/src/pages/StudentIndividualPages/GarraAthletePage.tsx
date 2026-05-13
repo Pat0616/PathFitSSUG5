@@ -3,8 +3,8 @@ import './individualathlete.css'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import GarraParq from '../../assets/memberPARQ/garraparq.png'
-import GarraProfile from '../../assets/memberProfiles/garraprofile.png'
+import GarraParq from '../../assets/memberPARQ/garraparq.webp'
+import GarraProfile from '../../assets/memberProfiles/garraprofile.webp'
  
 import SSULogo from '../../assets/ssuLogoClear.svg'
 

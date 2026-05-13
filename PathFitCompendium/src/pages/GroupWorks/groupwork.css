@@ -113,6 +113,7 @@
 
   .gwc-text {
     font-size: 0.95rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -135,6 +136,7 @@
   .gwc-text {
     font-size: 1.15rem;
     line-height: 1.9;
+    margin-bottom: 3rem;
   }
 
   .gwc-card {
@@ -144,4 +146,9 @@
   .gwc-list {
     gap: 34px;
   }
+}
+
+.filler-div
+{
+    padding: 3rem;
 }

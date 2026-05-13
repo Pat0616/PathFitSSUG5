@@ -3,8 +3,8 @@ import './individualathlete.css';
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import DespabiladerasProfile from '../../assets/memberProfiles/despabiladerasprofile.png'
-import DespabiladerasParq from '../../assets/memberPARQ/despabiladerasparq.png'
+import DespabiladerasProfile from '../../assets/memberProfiles/despabiladerasprofile.webp'
+import DespabiladerasParq from '../../assets/memberPARQ/despabiladerasparq.webp'
 
 import SSULogo from '../../assets/ssuLogoClear.svg'
 

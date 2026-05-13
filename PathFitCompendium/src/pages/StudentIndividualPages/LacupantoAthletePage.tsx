@@ -3,8 +3,8 @@ import './individualathlete.css'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import LacupantoProfile from '../../assets/memberProfiles/lacupantoprofile.png'
-import LacupantoParq from '../../assets/memberPARQ/lacupantoparq.png'
+import LacupantoProfile from '../../assets/memberProfiles/lacupantoprofile.webp'
+import LacupantoParq from '../../assets/memberPARQ/lacupantoparq.webp'
 
 import SSULogo from '../../assets/ssuLogoClear.svg'
 

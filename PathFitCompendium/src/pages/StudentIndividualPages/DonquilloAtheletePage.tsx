@@ -3,8 +3,8 @@ import './individualathlete.css'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import DonquilloProfile from '../../assets/memberProfiles/donquilloprofile.png'
-import DonquilloParq from '../../assets/memberPARQ/donquilloparq.png'
+import DonquilloProfile from '../../assets/memberProfiles/donquilloprofile.webp'
+import DonquilloParq from '../../assets/memberPARQ/donquilloparq.webp'
 
 import SSULogo from '../../assets/ssuLogoClear.svg'
 

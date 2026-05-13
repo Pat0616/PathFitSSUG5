@@ -3,8 +3,8 @@ import './individualathlete.css'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import EstavillaProfile from '../../assets/memberProfiles/estavilloprofile.png'
-import EstavillaParq from '../../assets/memberPARQ/estavilloparq.png'
+import EstavillaProfile from '../../assets/memberProfiles/estavilloprofile.webp'
+import EstavillaParq from '../../assets/memberPARQ/estavilloparq.webp'
  
 import SSULogo from '../../assets/ssuLogoClear.svg'
 

@@ -7,8 +7,8 @@ import SSULogo from '../../assets/ssuLogoClear.svg'
 
 
 
-import DellosaProfile from '../../assets/memberProfiles/dellosaprofile.png'
-import DellosaParq from '../../assets/memberPARQ/dellosaparq.png'
+import DellosaProfile from '../../assets/memberProfiles/dellosaprofile.webp'
+import DellosaParq from '../../assets/memberPARQ/dellosaparq.webp'
 
 function DellosaAtheletePage()
 {

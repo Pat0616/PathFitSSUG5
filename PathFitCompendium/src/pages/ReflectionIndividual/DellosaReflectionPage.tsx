@@ -2,7 +2,7 @@ import './reflectionindividual.css'
 
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
-import DellosaImg from '../../assets/memberPortraits/Dellosa.png'
+import DellosaImg from '../../assets/memberPortraits/Dellosa.webp'
 
 
 import SSULogo from '../../assets/ssuLogoClear.svg'

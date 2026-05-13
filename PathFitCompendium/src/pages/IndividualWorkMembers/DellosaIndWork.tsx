@@ -4,8 +4,8 @@ import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 import './indworkmember.css'
 
-import Activity1 from '../../assets/individualWorks/dellosawork1.png'
-import Activity2 from '../../assets/individualWorks/dellosawork2.png'
+import Activity1 from '../../assets/individualWorks/dellosawork1.webp'
+import Activity2 from '../../assets/individualWorks/dellosawork2.webp'
 
 import SSULogo from '../../assets/ssuLogoClear.svg'
 

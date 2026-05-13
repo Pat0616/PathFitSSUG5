@@ -3,8 +3,8 @@ import './individualathlete.css'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import FerrerasProfile from '../../assets/memberProfiles/ferrerasprofile.png'
-import FerrerasParq from '../../assets/memberPARQ/ferrerasparq.png'
+import FerrerasProfile from '../../assets/memberProfiles/ferrerasprofile.webp'
+import FerrerasParq from '../../assets/memberPARQ/ferrerasparq.webp'
 
 import SSULogo from '../../assets/ssuLogoClear.svg'
 

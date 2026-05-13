@@ -3,7 +3,7 @@ import './reflectionindividual.css'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import EstavilloImg from '../../assets/memberPortraits/Geneva.png'
+import EstavilloImg from '../../assets/memberPortraits/Geneva.webp'
 import SSULogo from '../../assets/ssuLogoClear.svg'
 
 

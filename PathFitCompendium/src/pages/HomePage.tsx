@@ -1,4 +1,4 @@
-import instructorImg from "../assets/instructor.png";
+import instructorImg from "../assets/instructor.webp";
 import SSULogo from '../assets/ssuLogoClear.svg'
 import "./homepage.css";
 

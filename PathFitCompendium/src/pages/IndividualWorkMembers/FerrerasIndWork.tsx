@@ -4,8 +4,8 @@ import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 import './indworkmember.css'
 import SSULogo from '../../assets/ssuLogoClear.svg'
-import Activity1 from '../../assets/individualWorks/ferreraswork1.png'
-import Activity2 from '../../assets/individualWorks/ferreraswork2.png'
+import Activity1 from '../../assets/individualWorks/ferreraswork1.webp'
+import Activity2 from '../../assets/individualWorks/ferreraswork2.webp'
 
 function FerrerasWorksPage()
 {

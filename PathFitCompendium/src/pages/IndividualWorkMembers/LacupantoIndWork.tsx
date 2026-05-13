@@ -4,8 +4,8 @@ import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 import './indworkmember.css'
 import SSULogo from '../../assets/ssuLogoClear.svg'
-import Activity1 from '../../assets/individualWorks/lacupantowork1.png'
-import Activity2 from '../../assets/individualWorks/lacupantowork2.png'
+import Activity1 from '../../assets/individualWorks/lacupantowork1.webp'
+import Activity2 from '../../assets/individualWorks/lacupantowork2.webp'
 
 function LacupantoWorksPage()
 {
