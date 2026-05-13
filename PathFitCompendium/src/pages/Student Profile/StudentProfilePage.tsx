@@ -18,7 +18,7 @@ import SSULogo from '../../assets/ssuLogoClear.svg'
 
 function StudentProfilePage()
 {
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const touchStartX = useRef(0);
     const touchEndX = useRef(0);
       useEffect(() => {
