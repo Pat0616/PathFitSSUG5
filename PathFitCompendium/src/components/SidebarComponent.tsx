@@ -48,55 +48,55 @@ export default function Sidebar({
 
 
         <Link to="/home" className="sidebar-item">
-          <Home size={22} />
+          <Home size={15} />
 
           {isOpen && <span>Home</span>}
         </Link>
 
         <Link to="/intro" className="sidebar-item">
-          <UserRound size={22} />
+          <UserRound size={15} />
 
           {isOpen && <span>Introduction</span>}
         </Link>
 
         <Link to="/contents" className="sidebar-item">
-          <List size={22} />
+          <List size={15} />
 
           {isOpen && <span>Table of Contents</span>}
         </Link>
 
         <Link to="/members" className="sidebar-item">
-          <Users size={22} />
+          <Users size={15} />
 
           {isOpen && <span>Members</span>}
         </Link>
 
         <Link to="/studentprofile" className="sidebar-item">
-          <Activity size={22} />
+          <Activity size={15} />
 
           {isOpen && <span>Athelete Profiles</span>}
         </Link>
 
         <Link to="/groupworks" className="sidebar-item">
-          <FolderOpen size={22} />
+          <FolderOpen size={15} />
 
           {isOpen && <span>Group Works</span>}
         </Link>
 
         <Link to="/individualworks" className="sidebar-item">
-           <FilePen  size={22} />
+           <FilePen  size={15} />
 
           {isOpen && <span>Individual Works</span>}
         </Link>
         
         <Link to="/reflections" className="sidebar-item">
-           <MessageSquareQuote size={22} />
+           <MessageSquareQuote size={15} />
 
           {isOpen && <span>Reflections</span>}
         </Link>
 
         <Link to="/closing" className="sidebar-item">
-           <GalleryVerticalEnd size={22} />
+           <GalleryVerticalEnd size={15} />
 
           {isOpen && <span>Closing Page</span>}
         </Link>

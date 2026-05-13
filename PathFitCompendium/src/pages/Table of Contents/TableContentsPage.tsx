@@ -157,6 +157,16 @@ function TableContentsPage()
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>
+
+                            <Link to="/closing" className="toc-item">
+                                <div className="toc-left">
+                                <h3>Closing Page</h3>
+                                </div>
+                                <div className="toc-right">
+                                <span>Page 10</span>
+                                <span className="arrow">→</span>
+                                </div>
+                            </Link>
                             
                             </div>
 
