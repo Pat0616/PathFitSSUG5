@@ -3,6 +3,15 @@ import { GraduationCap } from 'lucide-react'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
+import instructorImg from "../../assets/instructor.png"
+import DellosaImg from "../../assets/memberPortraits/Dellosa.png"
+import DespabiladerasImg from "../../assets/memberPortraits/Despibeladeras.png"
+import DonquilloImg from "../../assets/memberPortraits/Donquillo.png"
+import Estavillo from "../../assets/memberPortraits/Geneva.png"
+import Ferreras from "../../assets/memberPortraits/Ferreras.png"
+import Garra from "../../assets/memberPortraits/Garra.png"
+import Lacupanto from "../../assets/memberPortraits/Lacupanto.png"
+
 
 function MembersPage(){
 const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -49,7 +58,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
     return(
         <>
         <div className='intropage'>
-            <div className='hero'>
+            <div className='hero-memberpg'>
                 <div className='overlay'>
                                 {/* HEADER */}
                         <div className="hero-header">
@@ -65,6 +74,325 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
                         </div>
                         </header>
                         </div>
+
+
+                        
+
+
+    <div className="container">
+
+    <h1 className="title">Introduction of Members</h1>
+    <div className="accent-line"></div>
+    <p className="subtitle">Arranged alphabetically by surname</p>
+
+    <div className="grid">
+
+   
+      <div className="card">
+        <div className="image-box">
+          <img src={DellosaImg} alt="Full Name"/>
+        </div>
+
+        <div className="card-body">
+          <div>
+            <h3 className="name">Dellosa, Rodel C.</h3>
+            <p className="course">BS Computer Science</p>
+          </div>
+
+          <div className="info">
+            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+          </div>
+
+          <p className="quote">"Short personal introduction goes here."</p>
+
+          <div className="tags-section">
+            <p className="tag-title">Hobbies</p>
+            <div className="tags">
+              <span className="tag">Basketball</span>
+              <span className="tag">Gaming</span>
+              <span className="tag">Coding</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Fitness Goals</p>
+            <div className="tags">
+              <span className="tag-accent">Build muscle</span>
+              <span className="tag-accent">Endurance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+      <div className="card">
+        <div className="image-box">
+          <img src={DespabiladerasImg} alt="Full Name"/>
+        </div>
+
+        <div className="card-body">
+          <div>
+            <h3 className="name">Despabiladeras, Irene Joy E.</h3>
+            <p className="course">BS Computer Science</p>
+          </div>
+
+          <div className="info">
+            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+          </div>
+
+          <p className="quote">"Short personal introduction goes here."</p>
+
+          <div className="tags-section">
+            <p className="tag-title">Hobbies</p>
+            <div className="tags">
+              <span className="tag">Basketball</span>
+              <span className="tag">Gaming</span>
+              <span className="tag">Coding</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Fitness Goals</p>
+            <div className="tags">
+              <span className="tag-accent">Build muscle</span>
+              <span className="tag-accent">Endurance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+      <div className="card">
+        <div className="image-box">
+          <img src={DonquilloImg} alt="Full Name"/>
+        </div>
+
+        <div className="card-body">
+          <div>
+            <h3 className="name">Donquillo, John Lloyd D.</h3>
+            <p className="course">BS Computer Science</p>
+          </div>
+
+          <div className="info">
+            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+          </div>
+
+          <p className="quote">"Short personal introduction goes here."</p>
+
+          <div className="tags-section">
+            <p className="tag-title">Hobbies</p>
+            <div className="tags">
+              <span className="tag">Basketball</span>
+              <span className="tag">Gaming</span>
+              <span className="tag">Coding</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Fitness Goals</p>
+            <div className="tags">
+              <span className="tag-accent">Build muscle</span>
+              <span className="tag-accent">Endurance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+      <div className="card">
+        <div className="image-box">
+          <img src={Estavillo} alt="Full Name"/>
+        </div>
+
+        <div className="card-body">
+          <div>
+            <h3 className="name">Estavillo, Geneva M.</h3>
+            <p className="course">BS Computer Science</p>
+          </div>
+
+          <div className="info">
+            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+          </div>
+
+          <p className="quote">"Short personal introduction goes here."</p>
+
+          <div className="tags-section">
+            <p className="tag-title">Hobbies</p>
+            <div className="tags">
+              <span className="tag">Basketball</span>
+              <span className="tag">Gaming</span>
+              <span className="tag">Coding</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Fitness Goals</p>
+            <div className="tags">
+              <span className="tag-accent">Build muscle</span>
+              <span className="tag-accent">Endurance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <div className="card">
+        <div className="image-box">
+          <img src={Ferreras} alt="Full Name"/>
+        </div>
+
+        <div className="card-body">
+          <div>
+            <h3 className="name">Ferreras, Collete B.</h3>
+            <p className="course">BS Computer Science</p>
+          </div>
+
+          <div className="info">
+            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+          </div>
+
+          <p className="quote">"Short personal introduction goes here."</p>
+
+          <div className="tags-section">
+            <p className="tag-title">Hobbies</p>
+            <div className="tags">
+              <span className="tag">Basketball</span>
+              <span className="tag">Gaming</span>
+              <span className="tag">Coding</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Fitness Goals</p>
+            <div className="tags">
+              <span className="tag-accent">Build muscle</span>
+              <span className="tag-accent">Endurance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+        <div className="card">
+        <div className="image-box">
+          <img src={Garra} alt="Full Name"/>
+        </div>
+
+        <div className="card-body">
+          <div>
+            <h3 className="name">Garra, Christian Lyle F.</h3>
+            <p className="course">BS Computer Science</p>
+          </div>
+
+          <div className="info">
+            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+          </div>
+
+          <p className="quote">"Short personal introduction goes here."</p>
+
+          <div className="tags-section">
+            <p className="tag-title">Hobbies</p>
+            <div className="tags">
+              <span className="tag">Basketball</span>
+              <span className="tag">Gaming</span>
+              <span className="tag">Coding</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Fitness Goals</p>
+            <div className="tags">
+              <span className="tag-accent">Build muscle</span>
+              <span className="tag-accent">Endurance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+      <div className="card">
+        <div className="image-box">
+          <img src={Lacupanto} alt="Full Name"/>
+        </div>
+
+        <div className="card-body">
+          <div>
+            <h3 className="name">Lacupanto, France Joseph F.</h3>
+            <p className="course">BS Computer Science</p>
+          </div>
+
+          <div className="info">
+            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+          </div>
+
+          <p className="quote">"Short personal introduction goes here."</p>
+
+          <div className="tags-section">
+            <p className="tag-title">Hobbies</p>
+            <div className="tags">
+              <span className="tag">Basketball</span>
+              <span className="tag">Gaming</span>
+              <span className="tag">Coding</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Fitness Goals</p>
+            <div className="tags">
+              <span className="tag-accent">Build muscle</span>
+              <span className="tag-accent">Endurance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
