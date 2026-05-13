@@ -96,29 +96,37 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
         <div className="card-body">
           <div>
             <h3 className="name">Dellosa, Rodel C.</h3>
-            <p className="course">BS Computer Science</p>
+            <p className="course">BS Entrepreneurship</p>
           </div>
 
           <div className="info">
-            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+            <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">"Short personal introduction goes here."</p>
+          <p className="quote"> I’m a first year student from BS ENTREP 1C. I’m friendly, easygoing, and always ready to work with teammates on projects or activities. I love exploring new things and balancing my studies with things I enjoy doing.</p>
 
           <div className="tags-section">
             <p className="tag-title">Hobbies</p>
             <div className="tags">
-              <span className="tag">Basketball</span>
-              <span className="tag">Gaming</span>
-              <span className="tag">Coding</span>
+              <span className="tag">Online Gaming</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Interests</p>
+            <div className="tags">
+              <span className="tag">Gaming Strategies</span>
+              <span className="tag">Tech Trends</span>
             </div>
           </div>
 
           <div className="tags-section">
             <p className="tag-title">Fitness Goals</p>
             <div className="tags">
-              <span className="tag-accent">Build muscle</span>
-              <span className="tag-accent">Endurance</span>
+              <span className="tag-accent">Staying Active</span>
+              <span className="tag-accent">Good Health</span>
+              <span className="tag-accent">School Works</span>
+              <span className="tag-accent">Hobbies</span>
             </div>
           </div>
 
@@ -138,31 +146,21 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
         <div className="card-body">
           <div>
             <h3 className="name">Despabiladeras, Irene Joy E.</h3>
-            <p className="course">BS Computer Science</p>
+            <p className="course">BS Entrepreneurship</p>
           </div>
 
           <div className="info">
-            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+            <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">"Short personal introduction goes here."</p>
-
-          <div className="tags-section">
-            <p className="tag-title">Hobbies</p>
-            <div className="tags">
-              <span className="tag">Basketball</span>
-              <span className="tag">Gaming</span>
-              <span className="tag">Coding</span>
-            </div>
-          </div>
+          <p className="quote">an Entrepreneurship student who enjoys turning simple ideas into meaningful goals. I’m someone who values creativity, independence, and continuous self-improvement. I like exploring opportunities that challenge my skills and help me become more confident in dealing with people and real-life situations. I believe success starts with determination, patience, and the courage to keep trying even when things get difficult.</p>
 
           <div className="tags-section">
-            <p className="tag-title">Fitness Goals</p>
-            <div className="tags">
-              <span className="tag-accent">Build muscle</span>
-              <span className="tag-accent">Endurance</span>
-            </div>
+            <p className="tag-title">Hobbies && Interest</p>
+            <p>I enjoy listening to music during quiet moments, discovering new trends online. I’m interested in personal growth, self-confidence, and developing a positive mindset in everyday life. My fitness goal is not only to stay physically healthy but also to maintain balance mentally and emotionally through better routines, movement, and self-care habits.</p>
           </div>
+
+          
 
         </div>
       </div>
@@ -178,29 +176,44 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
         <div className="card-body">
           <div>
             <h3 className="name">Donquillo, John Lloyd D.</h3>
-            <p className="course">BS Computer Science</p>
+            <p className="course">BS Entrepreneurship</p>
           </div>
 
           <div className="info">
-            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+            <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">"Short personal introduction goes here."</p>
+          <p className="quote">first-year Bachelor of Science in Entrepreneurship student from Block 1C. I am a goal-oriented individual who values continuous growth in both academic and personal development. I believe that success is achieved through discipline, consistency, and perseverance rather than instant results. As a student, I strive to become responsible, focused, and committed in fulfilling my responsibilities while continuously improving myself through learning and experience.</p>
+
+          <p className="quote">I also believe in maintaining balance between academics, personal interests, and physical wellness to build a productive and healthy lifestyle. Through dedication and self-discipline, I aim to achieve my goals while developing confidence, resilience, and integrity in all aspects of life. </p>
 
           <div className="tags-section">
             <p className="tag-title">Hobbies</p>
             <div className="tags">
-              <span className="tag">Basketball</span>
-              <span className="tag">Gaming</span>
-              <span className="tag">Coding</span>
+              <span className="tag">Singing</span>
+              <span className="tag">Watching Films and Documentaries</span>
+              <span className="tag">Reviewing Academics</span>
+              <span className="tag">Music</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Interests</p>
+            <div className="tags">
+              <span className="tag-accent">Personal Development</span>
+              <span className="tag-accent">Self Discipline</span>
+              <span className="tag-accent">Physical Fitness and Wellness</span>
             </div>
           </div>
 
           <div className="tags-section">
             <p className="tag-title">Fitness Goals</p>
             <div className="tags">
-              <span className="tag-accent">Build muscle</span>
-              <span className="tag-accent">Endurance</span>
+              <span className="tag-accent">Improve stamina and physical endurance</span>
+              <span className="tag-accent">Maintain a consistent and healthy lifestyle</span>
+              <span className="tag-accent">Strengthen discipline through regular physical activity</span>
+              <span className="tag-accent">Enhance confidence and mental focus</span>
+              <span className="tag-accent">Develop long-term healthy habits and routines</span>
             </div>
           </div>
 
@@ -218,31 +231,45 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
         <div className="card-body">
           <div>
             <h3 className="name">Estavillo, Geneva M.</h3>
-            <p className="course">BS Computer Science</p>
+            <p className="course">BS Entrepreneurship</p>
           </div>
 
           <div className="info">
-            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+            <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">"Short personal introduction goes here."</p>
+          <p className="quote"> 18 years old, and I was born on August 14, 2007. I am from Rizal, Gubat, Sorsogon. I am the youngest among 8 siblings, which helped me become friendly, understanding, and family-oriented.</p>
+
+          <p className='quote'>My hobbies are taking pictures and playing online games whenever I have free time. I enjoy capturing beautiful moments and places through photography because it helps me express my creativity. I also like online games because they help me relax and enjoy my free time with friends.</p>
+
+          <p className='quote'>My interests include exploring new things, spending time with my family and friends, and improving my skills and confidence. For fitness, I try to stay active by doing simple physical activities and maintaining a healthy lifestyle.</p>
 
           <div className="tags-section">
             <p className="tag-title">Hobbies</p>
             <div className="tags">
-              <span className="tag">Basketball</span>
               <span className="tag">Gaming</span>
-              <span className="tag">Coding</span>
+              <span className="tag">Photography</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Interests</p>
+            <div className="tags">
+              <span className="tag-accent">Explore New Things</span>
+              <span className="tag-accent">Spending Time with Family and Friends</span>
+              <span className="tag-accent">Improving Skills and Confidence</span>
             </div>
           </div>
 
           <div className="tags-section">
             <p className="tag-title">Fitness Goals</p>
             <div className="tags">
-              <span className="tag-accent">Build muscle</span>
-              <span className="tag-accent">Endurance</span>
+              <span className="tag-accent">Physically Active</span>
+              <span className="tag-accent">Healthy Lifestyle</span>
             </div>
           </div>
+
+          
 
         </div>
       </div>
@@ -257,29 +284,42 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
         <div className="card-body">
           <div>
             <h3 className="name">Ferreras, Collete B.</h3>
-            <p className="course">BS Computer Science</p>
+            <p className="course">BS Entrepreneurship</p>
           </div>
 
           <div className="info">
-            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+            <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">"Short personal introduction goes here."</p>
+          <p className="quote">a first-year Bachelor of Science in Entrepreneurship student from Block 1C. I believe that maintaining physical fitness and a structured routine is essential for staying focused and disciplined in my studies. I follow a consistent workout plan four times a week, with a primary focus on building strength and staying active.</p>
+
+          <p className='quote'>‎To balance my busy academic life, I prioritize a slow morning routine and regular journaling, which allows me to process my thoughts and start each day with a clear mind. My fitness goal is to remain consistent with my training while maintaining the mental clarity that comes from my writing and self-care habits. Ultimately, I am working hard to finish my degree and achieve my goal of having my own apartment, where I can continue to lead an organized, healthy, and intentional life.</p>
 
           <div className="tags-section">
             <p className="tag-title">Hobbies</p>
             <div className="tags">
-              <span className="tag">Basketball</span>
-              <span className="tag">Gaming</span>
-              <span className="tag">Coding</span>
+              <span className="tag">Watching Documentaries and Self Growth Videos, and Korean Dramas</span>
+              <span className="tag">Listening to Self Growth and Girly Podcast</span>
+              <span className="tag">Listening to Music</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Interests</p>
+            <div className="tags">
+              <span className="tag-accent">Personal Growth and Self-Discipline</span>
+              <span className="tag-accent">Creative Designs</span>
+              <span className='tag-accent'>Community Engagement</span>
             </div>
           </div>
 
           <div className="tags-section">
             <p className="tag-title">Fitness Goals</p>
             <div className="tags">
-              <span className="tag-accent">Build muscle</span>
-              <span className="tag-accent">Endurance</span>
+              <span className="tag-accent">Consistent Workout Plan</span>
+              <span className="tag-accent">Muscle Growth</span>
+              <span className='tag-accent'>Physical Training and Journaling</span>
+              <span className='tag-accent'>Consistency and Focus</span>
             </div>
           </div>
 
@@ -297,29 +337,40 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
         <div className="card-body">
           <div>
             <h3 className="name">Garra, Christian Lyle F.</h3>
-            <p className="course">BS Computer Science</p>
+            <p className="course">BS Entrepreneurship</p>
           </div>
 
           <div className="info">
-            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+            <p><strong>Year & Block:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">"Short personal introduction goes here."</p>
+          <p className="quote">Just a simple  student who love playing sports and learning new things. I’m friendly, easy to get along with, and always eager to participate in activities that help me grow physically and mentally. I believe that discipline and consistency are key to achieving anything I set my mind. But first, I need to learn those things.</p>
 
           <div className="tags-section">
             <p className="tag-title">Hobbies</p>
             <div className="tags">
               <span className="tag">Basketball</span>
-              <span className="tag">Gaming</span>
-              <span className="tag">Coding</span>
+              <span className="tag">Volleyball</span>
+              <span className="tag">Hiking and Outdoor Activities</span>
+              <span className="tag">Listening to Music</span>
+              <span className='tag'>Reading Stories</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Interests</p>
+            <div className="tags">
+              <span className="tag-accent">Sports</span>
+              <span className="tag-accent">Outdoor Activities and Nature Trips</span>
             </div>
           </div>
 
           <div className="tags-section">
             <p className="tag-title">Fitness Goals</p>
             <div className="tags">
-              <span className="tag-accent">Build muscle</span>
-              <span className="tag-accent">Endurance</span>
+              <span className="tag-accent">Build Endurance and Stamina</span>
+              <span className="tag-accent">Improve Speed and Agility</span>
+              <span className="tag-accent">Learn Proper Workout Techniques</span>
             </div>
           </div>
 
@@ -338,14 +389,14 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
         <div className="card-body">
           <div>
             <h3 className="name">Lacupanto, France Joseph F.</h3>
-            <p className="course">BS Computer Science</p>
+            <p className="course">BS Entrepreneurship</p>
           </div>
 
           <div className="info">
-            <p><strong>Year & Section:</strong> <span>2 - A</span></p>
+            <p><strong>Year & Section:</strong> <span>1 - C</span></p>
           </div>
 
-          <p className="quote">"Short personal introduction goes here."</p>
+          <p className="quote">An Entrepreneur. Student here in Sorsogon State University. I am an opportunity taker and risk taker, I only have one life, why not make it interesting?</p>
 
           <div className="tags-section">
             <p className="tag-title">Hobbies</p>
@@ -357,10 +408,17 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
           </div>
 
           <div className="tags-section">
+            <p className="tag-title">Interests</p>
+            <div className="tags">
+              <span className="tag">MMA / Mixed Martal Arts</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
             <p className="tag-title">Fitness Goals</p>
             <div className="tags">
-              <span className="tag-accent">Build muscle</span>
-              <span className="tag-accent">Endurance</span>
+              <span className="tag-accent">Future Champion</span>
+              <span className="tag-accent">Push Limits Beyond Capabilities</span>
             </div>
           </div>
 

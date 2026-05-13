@@ -84,7 +84,7 @@ export default function HomePage() {
             {/* BODY */}
             <main className="main-content">
               <div className="portfolio-title">
-                <h4>Portfolio</h4>
+                <h4>PathFit 2 Group 5</h4>
 
                 <p>
                   Empowering Wellness Through Movement, Discipline and Excellence
