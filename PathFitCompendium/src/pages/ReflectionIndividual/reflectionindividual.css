@@ -97,6 +97,7 @@
   color: rgba(255,255,255,0.82);
 
   text-align: justify;
+  margin-bottom: 2rem;
 }
 
 /* MOBILE */
@@ -126,7 +127,8 @@
   }
 
   .rpind-reflection p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.8;
+    margin-bottom: 1rem;
   }
 }
