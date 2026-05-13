@@ -375,6 +375,9 @@ padding-top: 1rem;
 /* RESPONSIVE */
 
 @media (max-width: 900px) {
+    .quote-section{font-size: 1.3rem}
+
+
   .content-grid,
   .footer {
     grid-template-columns: 1fr;
