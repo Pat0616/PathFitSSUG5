@@ -1,5 +1,5 @@
 import "./sidebar.css";
-import { Link } from "lucide-react";
+import { Link } from "react-router-dom";
 
 import {
   Home,
@@ -12,7 +12,9 @@ import {
   FolderOpen,
   FilePen,
   MessageSquareQuote,
-  Settings
+  BookCheck,
+  BadgeCheck,
+  GalleryVerticalEnd 
 } from "lucide-react";
 
 type SidebarProps = {
@@ -50,71 +52,69 @@ export default function Sidebar({
       <nav className="sidebar-nav">
 
   
-        <a href="/home" className="sidebar-item">
+        <Link to="/home" className="sidebar-item">
           <Home size={22} />
 
           {isOpen && <span>Home</span>}
-        </a>
+        </Link>
 
-        <a href="/intro" className="sidebar-item">
+        <Link to="/intro" className="sidebar-item">
           <UserRound size={22} />
 
           {isOpen && <span>Introduction</span>}
-        </a>
+        </Link>
 
-        <a href="/contents" className="sidebar-item">
+        <Link to="/contents" className="sidebar-item">
           <List size={22} />
 
           {isOpen && <span>Table of Contents</span>}
-        </a>
+        </Link>
 
-        <a href="/members" className="sidebar-item">
+        <Link to="/members" className="sidebar-item">
           <Users size={22} />
 
           {isOpen && <span>Members</span>}
-        </a>
+        </Link>
 
-        <a href="/studentprofile" className="sidebar-item">
+        <Link to="/studentprofile" className="sidebar-item">
           <Activity size={22} />
 
           {isOpen && <span>Athelete Profiles</span>}
-        </a>
+        </Link>
 
-        <a href="#" className="sidebar-item">
-          <ClipboardList  size={22} />
-
-          {isOpen && <span>ParQ Forms</span>}
-        </a>
-
-
-
-        <a href="#" className="sidebar-item">
+        <Link to="#" className="sidebar-item">
           <FolderOpen size={22} />
 
           {isOpen && <span>Group Works</span>}
-        </a>
+        </Link>
 
-        <a className="sidebar-item">
+        <Link to="" className="sidebar-item">
            <FilePen  size={22} />
 
-          {isOpen && <span>Individual Works Works</span>}
-        </a>
+          {isOpen && <span>Individual Works</span>}
+        </Link>
         
-        <a className="sidebar-item">
+        <Link to="/reflections" className="sidebar-item">
            <MessageSquareQuote size={22} />
 
           {isOpen && <span>Reflections</span>}
-        </a>
+        </Link>
+
+        <Link to="/closing" className="sidebar-item">
+           <GalleryVerticalEnd size={22} />
+
+          {isOpen && <span>Closing Page</span>}
+        </Link>
 
       </nav>
 
       {/* BOTTOM */}
       <div className="sidebar-bottom">
-        <a href="#" className="sidebar-item">
-          <Settings size={22} />
+       
+      </div>
 
-          {isOpen && <span>Settings</span>}
-        </a>
+      <div className="sidebar-bottom">
+       
       </div>
     </aside>
   );

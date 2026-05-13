@@ -13,6 +13,13 @@ import EstavilloAthletePage from './pages/StudentIndividualPages/EstavilloAthlet
 import FerrerasAthletePage from './pages/StudentIndividualPages/FerrerasAthletePage'
 import GarraAthletePage from './pages/StudentIndividualPages/GarraAthletePage'
 import LacupantoAthletePage from './pages/StudentIndividualPages/LacupantoAthletePage'
+import DellosaReflectionPage from './pages/ReflectionIndividual/DellosaReflectionPage'
+import ReflectionsPage from './pages/Reflections/ReflectionPage'
+import DespabiladerasReflectionPage from './pages/ReflectionIndividual/DespabiladerasReflectionPage'
+import DonquilloReflectionPage from './pages/ReflectionIndividual/DonquilloReflectionPage'
+import FerreraseflectionPage from './pages/ReflectionIndividual/FerrerasReflectionPage'
+import GarraReflectionPage from './pages/ReflectionIndividual/GarraReflectionPage'
+import LacupantoReflectionPage from './pages/ReflectionIndividual/LacupantoReflectionPage'
 
 function App() {
 
@@ -25,6 +32,7 @@ function App() {
       <Route path="/contents" element={<TableContentsPage></TableContentsPage>}></Route>
       <Route path="/members" element={<MembersPage></MembersPage>}></Route>
       <Route path="/studentprofile" element={<StudentProfilePage></StudentProfilePage>}></Route>
+      <Route path="/reflections" element={<ReflectionsPage></ReflectionsPage>}></Route>
 
 
 
@@ -35,6 +43,17 @@ function App() {
       <Route path="/studentprofiles/5" element={<FerrerasAthletePage></FerrerasAthletePage>}></Route>
       <Route path="/studentprofiles/6" element={<GarraAthletePage></GarraAthletePage>}></Route>
       <Route path="/studentprofiles/7" element={<LacupantoAthletePage></LacupantoAthletePage>}></Route>
+
+
+
+
+      <Route path="/studentreflections/1" element={<DellosaReflectionPage></DellosaReflectionPage>}></Route>
+      <Route path="/studentreflections/2" element={<DespabiladerasReflectionPage/>}></Route>
+      <Route path="/studentreflections/3" element={<DonquilloReflectionPage/>}></Route>
+      <Route path="/studentreflections/4" element={<EstavilloAthletePage/>}></Route>
+      <Route path="/studentreflections/5" element={<FerreraseflectionPage/>}></Route>
+      <Route path="/studentreflections/6" element={<GarraReflectionPage/>}></Route>
+      <Route path="/studentreflections/7" element={<LacupantoReflectionPage></LacupantoReflectionPage>}></Route>
     </Routes>
    </Router>
   )

@@ -1,0 +1,153 @@
+/* TITLE */
+.title-studentprofile {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* GRID */
+.rpgs-grid {
+  width: 85%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .rpgs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+  .rpgs-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* CARD */
+.rpgs-card {
+  background: #4a0404;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  text-decoration: none;
+
+  transition: 0.25s ease;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100%;
+}
+
+.rpgs-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 14px 35px rgba(0,0,0,0.35);
+}
+
+/* IMAGE */
+.rpgs-image {
+  width: 100%;
+  height: 320px;
+
+  overflow: hidden;
+}
+
+.rpgs-image img {
+  width: 100%;
+  height: 100%;
+
+   object-fit: contain;
+
+  background: #ffffff;
+
+  padding: 10px;
+
+  display: block;
+
+  transition: transform 0.4s ease;
+}
+
+.rpgs-card:hover .rpgs-image img {
+  transform: scale(1.04);
+}
+
+/* DETAILS */
+.rpgs-details {
+  padding: 22px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+
+  flex-grow: 1;
+}
+
+/* NAME */
+.rpgs-details h2 {
+  font-size: 1.35rem;
+
+  font-weight: 800;
+
+  line-height: 1.3;
+
+  margin: 0;
+
+  min-height: 60px;
+}
+
+/* COURSE */
+.rpgs-details p {
+  font-size: 0.95rem;
+
+  color: rgba(255,255,255,0.82);
+
+  line-height: 1.5;
+
+  margin: 0;
+}
+
+/* BLOCK */
+.rpgs-details span {
+  font-size: 0.9rem;
+
+  color: rgba(255,255,255,0.65);
+
+  margin-top: auto;
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+  .rpgs-grid {
+    width: 92%;
+  }
+
+  .rpgs-image {
+    height: 260px;
+  }
+
+  .rpgs-details {
+    padding: 18px;
+  }
+
+  .rpgs-details h2 {
+    font-size: 1.15rem;
+    min-height: auto;
+  }
+
+  .rpgs-details p {
+    font-size: 0.9rem;
+  }
+}

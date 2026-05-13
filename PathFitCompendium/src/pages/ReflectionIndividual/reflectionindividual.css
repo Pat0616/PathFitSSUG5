@@ -1,0 +1,132 @@
+.rpind-container {
+  width: 85%;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 32px;
+}
+
+.rpind-card {
+  background: #4a0404;
+
+  border-radius: 20px;
+
+  padding: 32px;
+
+  color: white;
+
+  transition: 0.25s ease;
+}
+
+.rpind-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+/* HEADER */
+.rpind-header {
+  display: flex;
+
+  align-items: center;
+
+  gap: 24px;
+
+  margin-bottom: 28px;
+}
+
+/* PROFILE IMAGE */
+.rpind-image {
+  width: 140px;
+  height: 140px;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+
+  flex-shrink: 0;
+
+  border: 4px solid rgba(255,255,255,0.15);
+}
+
+.rpind-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+/* INFO */
+.rpind-info h2 {
+  font-size: 2rem;
+
+  font-weight: 800;
+
+  margin-bottom: 8px;
+
+  line-height: 1.2;
+}
+
+.rpind-info p {
+  font-size: 1rem;
+
+  color: rgba(255,255,255,0.8);
+
+  line-height: 1.5;
+}
+
+/* REFLECTION */
+.rpind-reflection h3 {
+  font-size: 1.2rem;
+
+  margin-bottom: 16px;
+
+  color: rgba(255,255,255,0.9);
+}
+
+.rpind-reflection p {
+  font-size: 1rem;
+
+  line-height: 1.9;
+
+  color: rgba(255,255,255,0.82);
+
+  text-align: justify;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .rpind-container {
+    width: 92%;
+  }
+
+  .rpind-card {
+    padding: 24px;
+  }
+
+  .rpind-header {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .rpind-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .rpind-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .rpind-reflection p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+  }
+}
