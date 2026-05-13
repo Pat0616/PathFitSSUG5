@@ -156,8 +156,29 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(true);
           <p className="quote">an Entrepreneurship student who enjoys turning simple ideas into meaningful goals. I’m someone who values creativity, independence, and continuous self-improvement. I like exploring opportunities that challenge my skills and help me become more confident in dealing with people and real-life situations. I believe success starts with determination, patience, and the courage to keep trying even when things get difficult.</p>
 
           <div className="tags-section">
-            <p className="tag-title">Hobbies && Interest</p>
-            <p>I enjoy listening to music during quiet moments, discovering new trends online. I’m interested in personal growth, self-confidence, and developing a positive mindset in everyday life. My fitness goal is not only to stay physically healthy but also to maintain balance mentally and emotionally through better routines, movement, and self-care habits.</p>
+            <p className="tag-title">Hobbies</p>
+            <div className="tags">
+              <span className="tag">Listening to Music</span>
+              <span className="tag">Discovering New Trends</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Interests</p>
+            <div className="tags">
+              <span className="tag">Personal Growth</span>
+              <span className="tag">Self Confidence</span>
+              <span className='tag'>Develop Positive Mindset Everyday</span>
+            </div>
+          </div>
+
+          <div className="tags-section">
+            <p className="tag-title">Fitness Goals</p>
+            <div className="tags">
+              <span className="tag">Better Routines</span>
+              <span className="tag">Improve Mental and Emotional Health</span>
+              <span className='tag'>Improve Self-Care Habits</span>
+            </div>
           </div>
 
           
