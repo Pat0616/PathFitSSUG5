@@ -103,7 +103,7 @@ function ClosingPage() {
             <h4>Course Details</h4>
             <p>Physical Activity, Fitness, and Health 2</p>
             <p>Semester 2, AY 2025-2026</p>
-            <p>Instructor: Dr. Maria Santos</p>
+            <p>Instructor: Ma'am Kate Baluyot</p>
           </div>
 
           <div className="footer-bottom">

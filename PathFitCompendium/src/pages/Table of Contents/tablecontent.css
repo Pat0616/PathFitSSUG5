@@ -111,3 +111,15 @@
   font-size: 18px;
   font-weight: 600;
 }
+
+@media(max-width: 747px)
+{
+    .toc-left h3 {
+  font-size: .8rem;
+    }
+
+    .toc-right  {
+        font-size: 10px;
+    }
+
+}

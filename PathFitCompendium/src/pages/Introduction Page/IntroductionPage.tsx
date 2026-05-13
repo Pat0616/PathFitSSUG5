@@ -52,7 +52,7 @@ function IntroductionPage() {
                 <div className="logo-container">
                   <img src={SSULogo} alt="SSU Logo" className="ssuLogo" />
 
-                  <div className="school-details-intro">
+                  <div className="school-details">
                     <h1>Sorsogon State University</h1>
                     <h2>College of Business and Management</h2>
                     <h3>Sorsogon City Campus</h3>
@@ -129,7 +129,7 @@ function IntroductionPage() {
             <h4>Course Details</h4>
             <p>Physical Activity, Fitness, and Health 2</p>
             <p>Semester 2, AY 2025-2026</p>
-            <p>Instructor: Dr. Maria Santos</p>
+            <p>Instructor: Ma'am Kate Baluyot</p>
           </div>
 
           <div className="footer-bottom">
