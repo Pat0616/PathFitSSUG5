@@ -4,6 +4,8 @@ import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 import './indworkmember.css'
 
+import Activity1 from '../../assets/individualWorks/donquillowork1.png'
+import Activity2 from '../../assets/individualWorks/donquillowork2.png'
 
 function DonquilloWorksPage()
 {
@@ -73,9 +75,10 @@ function DonquilloWorksPage()
 
 
 
-                        <div className="idwe-container">
+<div className="idwe-container">
 
-  <h2 className="idwe-name">Dellosa, Rodel C.</h2>
+  <h2 className="idwe-name">Donquillo, John Lloyd D.</h2>
+
   <div className="idwe-accent"></div>
 
   <p className="idwe-label">Activity Evidence</p>
@@ -83,11 +86,11 @@ function DonquilloWorksPage()
   <div className="idwe-images">
 
     <div className="idwe-image-box">
-      <img src={""} alt="Activity 1" />
+      <img src={Activity1} alt="Activity Image 1"/>
     </div>
 
     <div className="idwe-image-box">
-      <img src={""} alt="Activity 2" />
+      <img src={Activity2} alt="Activity Image 2"/>
     </div>
 
   </div>
