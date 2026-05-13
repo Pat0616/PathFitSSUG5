@@ -83,7 +83,7 @@ function TableContentsPage()
                                 <h3>Cover Page</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 1</span>
+                                <span></span>
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>
@@ -93,27 +93,19 @@ function TableContentsPage()
                                 <h3>Introduction & Abstract</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 2</span>
+                                <span> </span>
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>
 
-                            <Link to="/contents" className="toc-item">
-                                <div className="toc-left">
-                                <h3>Table of Contents</h3>
-                                </div>
-                                <div className="toc-right">
-                                <span>This Page</span>
-                                
-                                </div>
-                            </Link>
+                           
 
                             <Link to="/members" className="toc-item">
                                 <div className="toc-left">
                                 <h3>Introduction of Members</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 4</span>
+                                <span></span>
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>
@@ -123,7 +115,7 @@ function TableContentsPage()
                                 <h3>Student Athlete Profiles & PAR-Q</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 5 & 6</span>
+                                <span></span>
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>
@@ -133,7 +125,7 @@ function TableContentsPage()
                                 <h3>Group Works</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 7</span>
+                                <span></span>
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>
@@ -143,7 +135,7 @@ function TableContentsPage()
                                 <h3>Individual Works</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 8</span>
+                                <span></span>
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>
@@ -153,7 +145,7 @@ function TableContentsPage()
                                 <h3>Reflections</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 9</span>
+                                <span></span>
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>
@@ -163,7 +155,7 @@ function TableContentsPage()
                                 <h3>Closing Page</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 10</span>
+                                <span></span>
                                 <span className="arrow">→</span>
                                 </div>
                             </Link>

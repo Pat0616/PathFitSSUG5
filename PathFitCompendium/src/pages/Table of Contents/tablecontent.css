@@ -6,7 +6,7 @@
 .overlay-tablecontent {
   min-height: 100vh;
   background: rgba(0, 0, 0, 0.9);
-  padding: 30px 10px;
+  padding: 30px 60px;
   position: relative;
 }
 
@@ -114,12 +114,24 @@
 
 @media(max-width: 747px)
 {
+    .title-tablecontent{
+        font-size: 2rem;
+    }
+
+    .overlay-tablecontent{
+        padding: 30px 1px;
+    }
+
     .toc-left h3 {
   font-size: .8rem;
     }
 
     .toc-right  {
-        font-size: 10px;
+        font-size: .7rem;
+    }
+
+    .value{
+        font-size: .8rem;
     }
 
 }
