@@ -22,6 +22,14 @@ import GarraReflectionPage from './pages/ReflectionIndividual/GarraReflectionPag
 import LacupantoReflectionPage from './pages/ReflectionIndividual/LacupantoReflectionPage'
 import ClosingPage from './pages/Closing Page/ClosingPage'
 import GroupWorkPage from './pages/GroupWorks/GroupWorkPage'
+import IndividualWorkPage from './pages/IndividualWork/IndividualWorkPage'
+import DellosaWorksPage from './pages/IndividualWorkMembers/DellosaIndWork'
+import DespabiladerasWorksPage from './pages/IndividualWorkMembers/DespabiladerasIndWork'
+import DonquilloWorksPage from './pages/IndividualWorkMembers/DonquilloIndWork'
+import EstavilloWorksPage from './pages/IndividualWorkMembers/EstavilloIndWork'
+import FerrerasWorksPage from './pages/IndividualWorkMembers/FerrerasIndWork'
+import GarraWorksPage from './pages/IndividualWorkMembers/GarraIndWork'
+import LacupantoWorksPage from './pages/IndividualWorkMembers/LacupantoIndWork'
 
 function App() {
 
@@ -34,6 +42,7 @@ function App() {
       <Route path="/contents" element={<TableContentsPage></TableContentsPage>}></Route>
       <Route path="/members" element={<MembersPage></MembersPage>}></Route>
       <Route path="/studentprofile" element={<StudentProfilePage></StudentProfilePage>}></Route>
+      <Route path="/individualworks" element={<IndividualWorkPage/>}></Route>
       <Route path="/groupworks" element={<GroupWorkPage/>}></Route>
       <Route path="/reflections" element={<ReflectionsPage></ReflectionsPage>}></Route>
       <Route path="/closing" element={<ClosingPage></ClosingPage>}></Route>
@@ -58,6 +67,15 @@ function App() {
       <Route path="/studentreflections/5" element={<FerreraseflectionPage/>}></Route>
       <Route path="/studentreflections/6" element={<GarraReflectionPage/>}></Route>
       <Route path="/studentreflections/7" element={<LacupantoReflectionPage></LacupantoReflectionPage>}></Route>
+
+
+      <Route path="individualwork/1" element={<DellosaWorksPage/>}></Route>
+      <Route path="individualwork/2" element={<DespabiladerasWorksPage/>}></Route>
+      <Route path="individualwork/3" element={<DonquilloWorksPage/>}></Route>
+      <Route path="individualwork/4" element={<EstavilloWorksPage/>}></Route>
+      <Route path="individualwork/5" element={<FerrerasWorksPage/>}></Route>
+      <Route path="individualwork/6" element={<GarraWorksPage/>}></Route>
+      <Route path="individualwork/7" element={<LacupantoWorksPage/>}></Route>
     </Routes>
    </Router>
   )

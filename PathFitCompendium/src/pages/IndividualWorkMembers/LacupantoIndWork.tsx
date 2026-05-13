@@ -1,15 +1,13 @@
-import './individualathlete.css'
+
 import { GraduationCap } from 'lucide-react'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
+import './indworkmember.css'
 
-import GarraParq from '../../assets/memberPARQ/garraparq.png'
-import GarraProfile from '../../assets/memberProfiles/garraprofile.png'
- 
 
-function GarraAthletePage()
+function LacupantoWorksPage()
 {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
     const touchStartX = useRef(0);
     const touchEndX = useRef(0);
       useEffect(() => {
@@ -53,8 +51,8 @@ function GarraAthletePage()
     return(
         <>
         <div className='intropage'>
-            <div className='hero'>
-                <div className='overlay'>
+            <div className='hero-intro'>
+                <div className='overlay-intro'>
                                 {/* HEADER */}
                         <div className="hero-header">
                         <header className="header">
@@ -76,46 +74,36 @@ function GarraAthletePage()
 
 
 
-                        <div className="isap-container">
 
-                            <div className="isap-card">
 
-                                <div className="isap-header">
-                                <h2>Garra, Christian Lyle F.</h2>
-                                <p>BS Entrepreneurship 1 - C</p>
-                                </div>
+<div className="idwe-container">
 
-                                <div className="isap-grid">
+  <h2 className="idwe-name">Despabiladeras, Irene Joy E.</h2>
+  <div className="idwe-accent"></div>
 
-                                {/* ATHLETE PROFILE */}
-                                <div className="isap-box">
-                                    <h3>Athlete Profile</h3>
+  <p className="idwe-label">Activity Evidence</p>
 
-                                    <img
-                                    src={GarraProfile}
-                                    alt="Athlete Profile"
-                                    />
-                                </div>
+  <div className="idwe-images">
 
-                                {/* PAR-Q */}
-                                <div className="isap-box">
-                                    <h3>PAR-Q</h3>
+    <div className="idwe-image-box">
+      <img src={""} alt="Activity 1" />
+    </div>
 
-                                    <img
-                                    src={GarraParq}
-                                    alt="PARQ"
-                                    />
-                                </div>
+    <div className="idwe-image-box">
+      <img src={""} alt="Activity 2" />
+    </div>
 
-                                </div>
+  </div>
 
-                                <p className="isap-note">
-                                The information provided in these documents is true and accurate to the best of the student's knowledge.
-                                </p>
+</div>
 
-                            </div>
 
-                            </div>
+
+
+
+
+
+
 
 
 
@@ -197,4 +185,4 @@ function GarraAthletePage()
     )
 }
 
-export default GarraAthletePage;
+export default LacupantoWorksPage;

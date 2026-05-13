@@ -1,4 +1,4 @@
-import './studentprofile.css'
+import '../Student Profile/studentprofile.css'
 import { GraduationCap } from 'lucide-react'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
@@ -13,7 +13,7 @@ import FerrerasImg from '../../assets/memberPortraits/Ferreras.png'
 import GarraImg from '../../assets/memberPortraits/Garra.png'
 import LacupantoImg from '../../assets/memberPortraits/Lacupanto.png'
 
-function StudentProfilePage()
+function IndividualWorkPage()
 {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
     const touchStartX = useRef(0);
@@ -59,8 +59,8 @@ function StudentProfilePage()
     return(
         <>
         <div className='intropage'>
-            <div className='hero'>
-                <div className='overlay'>
+            <div className='hero-intro'>
+                <div className='overlay-intro'>
                                 {/* HEADER */}
                         <div className="hero-header">
                         <header className="header">
@@ -85,13 +85,13 @@ function StudentProfilePage()
 
 
                         <div className='container'>
-                            <h1 className='title-studentprofile'>Student Athlete Profile && PARQ Assessment</h1>
+                            <h1 className='title-studentprofile'>Individual Works of Student Athletes</h1>
                             <div className='accent-line'></div>
                             <p className='subtitle'></p>
 
                             <div className="members-grid">
 
-                                <Link to='/studentprofiles/1' className="member-card">
+                                <Link to='/individualwork/1' className="member-card">
                                     <div className="member-image">
                                     <img src={DellosaImg} alt="Dellosa, Rodel C." />
                                     </div>
@@ -104,7 +104,7 @@ function StudentProfilePage()
                                 </Link>
 
 
-                                <Link to='/studentprofiles/2' className="member-card">
+                                <Link to='/individualwork/2' className="member-card">
                                     <div className="member-image">
                                     <img src={Despabiladeras} alt="Despabiladeras, Irene Joy E." />
                                     </div>
@@ -117,7 +117,7 @@ function StudentProfilePage()
                                 </Link>
 
 
-                                <Link to='/studentprofiles/3' className="member-card">
+                                <Link to='/individualwork/3' className="member-card">
                                     <div className="member-image">
                                     <img src={DonquilloImg} alt="Donquillo, John Lloyd D." />
                                     </div>
@@ -130,7 +130,7 @@ function StudentProfilePage()
                                 </Link>
 
 
-                                <Link to='/studentprofiles/4' className="member-card">
+                                <Link to='/individualwork/4' className="member-card">
                                     <div className="member-image">
                                     <img src={EstavilloImg} alt="Estavillo, Geneva M." />
                                     </div>
@@ -143,7 +143,7 @@ function StudentProfilePage()
                                 </Link>
 
 
-                                <Link to='/studentprofiles/5' className="member-card">
+                                <Link to='/individualwork/5' className="member-card">
                                     <div className="member-image">
                                     <img src={FerrerasImg} alt="Ferreras, Collete B." />
                                     </div>
@@ -155,7 +155,7 @@ function StudentProfilePage()
                                     </div>
                                 </Link>
 
-                                <Link to='/studentprofiles/6' className="member-card">
+                                <Link to='/individualwork/6' className="member-card">
                                     <div className="member-image">
                                     <img src={GarraImg} alt="Garra, Christian Lyle F." />
                                     </div>
@@ -167,7 +167,7 @@ function StudentProfilePage()
                                     </div>
                                 </Link>
 
-                                <Link to='/studentprofiles/7' className="member-card">
+                                <Link to='/individualwork/7' className="member-card">
                                     <div className="member-image">
                                     <img src={LacupantoImg} alt="Lacupanto, France Joseph F." />
                                     </div>
@@ -256,4 +256,4 @@ function StudentProfilePage()
     )
 }
 
-export default StudentProfilePage;
+export default IndividualWorkPage;  
