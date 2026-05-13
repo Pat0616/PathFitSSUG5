@@ -2,6 +2,7 @@ import './tablecontent.css'
 import { GraduationCap } from 'lucide-react'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
+import {Link} from 'react-router-dom'
 
 import SSULogo from '../../assets/ssuLogoClear.svg'
 
@@ -77,7 +78,7 @@ function TableContentsPage()
                             <div className="accent-line"></div>
 
                             <div className="toc-list">
-                            <button className="toc-item">
+                            <Link to="/home" className="toc-item">
                                 <div className="toc-left">
                                 <h3>Cover Page</h3>
                                 </div>
@@ -85,9 +86,9 @@ function TableContentsPage()
                                 <span>Page 1</span>
                                 <span className="arrow">→</span>
                                 </div>
-                            </button>
+                            </Link>
 
-                            <button className="toc-item">
+                            <Link to="/intro"className="toc-item">
                                 <div className="toc-left">
                                 <h3>Introduction & Abstract</h3>
                                 </div>
@@ -95,19 +96,19 @@ function TableContentsPage()
                                 <span>Page 2</span>
                                 <span className="arrow">→</span>
                                 </div>
-                            </button>
+                            </Link>
 
-                            <button className="toc-item">
+                            <Link to="/contents" className="toc-item">
                                 <div className="toc-left">
                                 <h3>Table of Contents</h3>
                                 </div>
                                 <div className="toc-right">
-                                <span>Page 3</span>
-                                <span className="arrow">→</span>
+                                <span>This Page</span>
+                                
                                 </div>
-                            </button>
+                            </Link>
 
-                            <button className="toc-item">
+                            <Link to="/members" className="toc-item">
                                 <div className="toc-left">
                                 <h3>Introduction of Members</h3>
                                 </div>
@@ -115,9 +116,9 @@ function TableContentsPage()
                                 <span>Page 4</span>
                                 <span className="arrow">→</span>
                                 </div>
-                            </button>
+                            </Link>
 
-                            <button className="toc-item">
+                            <Link to="/studentprofile" className="toc-item">
                                 <div className="toc-left">
                                 <h3>Student Athlete Profiles & PAR-Q</h3>
                                 </div>
@@ -125,9 +126,9 @@ function TableContentsPage()
                                 <span>Page 5 & 6</span>
                                 <span className="arrow">→</span>
                                 </div>
-                            </button>
+                            </Link>
 
-                            <button className="toc-item">
+                            <Link to="/groupworks" className="toc-item">
                                 <div className="toc-left">
                                 <h3>Group Works</h3>
                                 </div>
@@ -135,9 +136,9 @@ function TableContentsPage()
                                 <span>Page 7</span>
                                 <span className="arrow">→</span>
                                 </div>
-                            </button>
+                            </Link>
 
-                            <button className="toc-item">
+                            <Link to="/individualworks" className="toc-item">
                                 <div className="toc-left">
                                 <h3>Individual Works</h3>
                                 </div>
@@ -145,9 +146,9 @@ function TableContentsPage()
                                 <span>Page 8</span>
                                 <span className="arrow">→</span>
                                 </div>
-                            </button>
+                            </Link>
                             
-                            <button className="toc-item">
+                            <Link to="/reflections" className="toc-item">
                                 <div className="toc-left">
                                 <h3>Reflections</h3>
                                 </div>
@@ -155,7 +156,7 @@ function TableContentsPage()
                                 <span>Page 9</span>
                                 <span className="arrow">→</span>
                                 </div>
-                            </button>
+                            </Link>
                             
                             </div>
 

@@ -5,6 +5,7 @@ import { useState, useRef, useEffect} from 'react';
 import './indworkmember.css'
 import SSULogo from '../../assets/ssuLogoClear.svg'
 import Activity1 from '../../assets/individualWorks/estavillowork1.png'
+import Activity2 from '../../assets/individualWorks/estavillowork2.png'
 
 function EstavilloWorksPage()
 {
@@ -95,11 +96,11 @@ function EstavilloWorksPage()
   <div className="idwe-images">
 
     <div className="idwe-image-box">
-      <img src={Activity1} alt="Activity Image 1"/>
+      <img src={Activity2} alt="Activity Image 1"/>
     </div>
 
     <div className="idwe-image-box">
-      <img src={"Activity2"} alt="Activity Image 2"/>
+      <img src={Activity1} alt="Activity Image 2"/>
     </div>
 
   </div>
