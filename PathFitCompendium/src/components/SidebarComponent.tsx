@@ -74,7 +74,7 @@ export default function Sidebar({
           {isOpen && <span>Members</span>}
         </a>
 
-        <a href="#" className="sidebar-item">
+        <a href="/studentprofile" className="sidebar-item">
           <Activity size={22} />
 
           {isOpen && <span>Athelete Profiles</span>}
@@ -86,11 +86,7 @@ export default function Sidebar({
           {isOpen && <span>ParQ Forms</span>}
         </a>
 
-        <a className="sidebar-item">
-           <Dumbbell size={22} />
 
-          {isOpen && <span>Reflections</span>}
-        </a>
 
         <a href="#" className="sidebar-item">
           <FolderOpen size={22} />
