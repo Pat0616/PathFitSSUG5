@@ -54,7 +54,7 @@ function GroupWorkPage()
         <>
         <div className='intropage'>
             <div className='hero'>
-                <div className='overlay'>
+                <div className='overlay-intro'>
                                 {/* HEADER */}
                         <div className="hero-header">
                         <header className="header">

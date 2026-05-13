@@ -424,9 +424,9 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
           <div className="tags-section">
             <p className="tag-title">Hobbies</p>
             <div className="tags">
-              <span className="tag">Basketball</span>
-              <span className="tag">Gaming</span>
-              <span className="tag">Coding</span>
+              <span className="tag">Cooking</span>
+              <span className="tag">Listening to Music</span>
+              <span className="tag">Enjoying Nature</span>
             </div>
           </div>
 

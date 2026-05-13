@@ -96,7 +96,7 @@
 /* MOBILE */
 @media (max-width: 768px) {
   .gwc-container {
-    width: 92%;
+    width: 100%;
   }
 
   .gwc-title {
@@ -112,7 +112,7 @@
   }
 
   .gwc-text {
-    font-size: 0.95rem;
+    font-size: 0.7rem;
     margin-bottom: 3rem;
   }
 }

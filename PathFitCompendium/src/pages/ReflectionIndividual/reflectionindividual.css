@@ -103,11 +103,11 @@
 @media (max-width: 768px) {
 
   .rpind-container {
-    width: 92%;
+    width: 100%;
   }
 
   .rpind-card {
-    padding: 24px;
+    padding: 20px;
   }
 
   .rpind-header {
@@ -126,7 +126,7 @@
   }
 
   .rpind-reflection p {
-    font-size: 0.95rem;
+    font-size: 0.7rem;
     line-height: 1.8;
   }
 }
