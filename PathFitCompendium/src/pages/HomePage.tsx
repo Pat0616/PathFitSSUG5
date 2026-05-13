@@ -5,7 +5,7 @@ import "./homepage.css";
 import { useEffect, useRef, useState } from "react";
 
 import Sidebar from "../components/SidebarComponent";
-import { GraduationCap } from "lucide-react";
+
 
 export default function HomePage() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

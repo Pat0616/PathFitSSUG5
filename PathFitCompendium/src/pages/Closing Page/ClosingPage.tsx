@@ -1,4 +1,4 @@
-import { GraduationCap } from "lucide-react";
+
 import Sidebar from "../../components/SidebarComponent";
 import { useState, useRef, useEffect } from "react";
 import SSULogo from '../../assets/ssuLogoClear.svg'

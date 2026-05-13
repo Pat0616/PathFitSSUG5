@@ -1,9 +1,9 @@
 import './members.css'
-import { GraduationCap } from 'lucide-react'
+
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-import instructorImg from "../../assets/instructor.png"
+
 import DellosaImg from "../../assets/memberPortraits/Dellosa.png"
 import DespabiladerasImg from "../../assets/memberPortraits/Despibeladeras.png"
 import DonquilloImg from "../../assets/memberPortraits/Donquillo.png"

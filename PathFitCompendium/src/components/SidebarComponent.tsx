@@ -7,13 +7,11 @@ import {
   List,
   Users,
   Activity,
-  ClipboardList,
-  Dumbbell,
+ 
   FolderOpen,
   FilePen,
   MessageSquareQuote,
-  BookCheck,
-  BadgeCheck,
+
   GalleryVerticalEnd 
 } from "lucide-react";
 
