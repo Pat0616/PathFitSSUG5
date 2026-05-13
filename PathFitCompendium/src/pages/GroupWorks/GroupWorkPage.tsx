@@ -75,7 +75,7 @@ function GroupWorkPage()
 
                 
 <div className="gwc-container">
-  <h1 className="gwc-title">Group Works Contents</h1>
+  <h1 className="gwc-title">Group Work Contents</h1>
   <div className="gwc-accent"></div>
 
   <div className="gwc-list">
