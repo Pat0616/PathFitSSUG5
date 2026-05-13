@@ -15,7 +15,7 @@ import LacupantoImg from '../../assets/memberPortraits/Lacupanto.png'
 import SSULogo from '../../assets/ssuLogoClear.svg'
 function IndividualWorkPage()
 {
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const touchStartX = useRef(0);
     const touchEndX = useRef(0);
       useEffect(() => {
