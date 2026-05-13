@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import SSULogo from '../../assets/ssuLogoClear.svg'
 
 function ClosingPage() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);

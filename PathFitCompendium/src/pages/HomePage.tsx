@@ -8,7 +8,7 @@ import Sidebar from "../components/SidebarComponent";
 import { GraduationCap } from "lucide-react";
 
 export default function HomePage() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const members = [
     "Dellosa, Rodel C.",

@@ -9,7 +9,7 @@ import Activity2 from '../../assets/individualWorks/donquillowork2.png'
 import SSULogo from '../../assets/ssuLogoClear.svg'
 function DonquilloWorksPage()
 {
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const touchStartX = useRef(0);
     const touchEndX = useRef(0);
       useEffect(() => {

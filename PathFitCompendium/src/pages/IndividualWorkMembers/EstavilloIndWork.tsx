@@ -9,7 +9,7 @@ import Activity2 from '../../assets/individualWorks/estavillowork2.png'
 
 function EstavilloWorksPage()
 {
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const touchStartX = useRef(0);
     const touchEndX = useRef(0);
       useEffect(() => {
