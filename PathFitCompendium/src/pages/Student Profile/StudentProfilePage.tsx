@@ -3,6 +3,8 @@ import { GraduationCap } from 'lucide-react'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
+import {Link} from 'react-router-dom'
+
 import DellosaImg from '../../assets/memberPortraits/Dellosa.png'
 import Despabiladeras from '../../assets/memberPortraits/Despibeladeras.png'
 import DonquilloImg from '../../assets/memberPortraits/Donquillo.png'
@@ -89,7 +91,7 @@ function StudentProfilePage()
 
                             <div className="members-grid">
 
-                                <div className="member-card">
+                                <Link to='/studentprofiles/1' className="member-card">
                                     <div className="member-image">
                                     <img src={DellosaImg} alt="Dellosa, Rodel C." />
                                     </div>
@@ -99,10 +101,10 @@ function StudentProfilePage()
                                     <p>Bachelor of Science in Entrepreneurship</p>
                                     <span>1 - C</span>
                                     </div>
-                                </div>
+                                </Link>
 
 
-                                <div className="member-card">
+                                <Link to='/studentprofiles/2' className="member-card">
                                     <div className="member-image">
                                     <img src={Despabiladeras} alt="Despabiladeras, Irene Joy E." />
                                     </div>
@@ -112,10 +114,10 @@ function StudentProfilePage()
                                     <p>Bachelor of Science in Entrepreneurship</p>
                                     <span>1 - C</span>
                                     </div>
-                                </div>
+                                </Link>
 
 
-                                <div className="member-card">
+                                <Link to='/studentprofiles/3' className="member-card">
                                     <div className="member-image">
                                     <img src={DonquilloImg} alt="Donquillo, John Lloyd D." />
                                     </div>
@@ -125,10 +127,10 @@ function StudentProfilePage()
                                     <p>Bachelor of Science in Entrepreneurship</p>
                                     <span>1 - C</span>
                                     </div>
-                                </div>
+                                </Link>
 
 
-                                <div className="member-card">
+                                <Link to='/studentprofiles/4' className="member-card">
                                     <div className="member-image">
                                     <img src={EstavilloImg} alt="Estavillo, Geneva M." />
                                     </div>
@@ -138,10 +140,10 @@ function StudentProfilePage()
                                     <p>Bachelor of Science in Entrepreneurship</p>
                                     <span>1 - C</span>
                                     </div>
-                                </div>
+                                </Link>
 
 
-                                <div className="member-card">
+                                <Link to='/studentprofiles/5' className="member-card">
                                     <div className="member-image">
                                     <img src={FerrerasImg} alt="Ferreras, Collete B." />
                                     </div>
@@ -151,9 +153,9 @@ function StudentProfilePage()
                                     <p>Bachelor of Science in Entrepreneurship</p>
                                     <span>1 - C</span>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div className="member-card">
+                                <Link to='/studentprofiles/6' className="member-card">
                                     <div className="member-image">
                                     <img src={GarraImg} alt="Garra, Christian Lyle F." />
                                     </div>
@@ -163,9 +165,9 @@ function StudentProfilePage()
                                     <p>Bachelor of Science in Entrepreneurship</p>
                                     <span>1 - C</span>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div className="member-card">
+                                <Link to='/studentprofiles/1' className="member-card">
                                     <div className="member-image">
                                     <img src={LacupantoImg} alt="Lacupanto, France Joseph F." />
                                     </div>
@@ -175,7 +177,7 @@ function StudentProfilePage()
                                     <p>Bachelor of Science in Entrepreneurship</p>
                                     <span>1 - C</span>
                                     </div>
-                                </div>
+                                </Link>
 
                                 </div>
                         </div>

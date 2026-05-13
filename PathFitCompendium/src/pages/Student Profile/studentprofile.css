@@ -24,6 +24,8 @@
   padding: 24px;
   padding-top: 30px;
   transition: 0.25s ease;
+
+  text-decoration: none;
 }
 
 .member-card:hover {

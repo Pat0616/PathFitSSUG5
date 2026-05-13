@@ -1,11 +1,14 @@
-import './individualathlete.css';
+import './individualathlete.css'
 import { GraduationCap } from 'lucide-react'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
-function DellosaAtheletePage()
+import LacupantoProfile from '../../assets/memberProfiles/lacupantoprofile.png'
+import LacupantoParq from '../../assets/memberPARQ/lacupantoparq.png'
+
+function LacupantoAthletePage()
 {
-   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
     const touchStartX = useRef(0);
     const touchEndX = useRef(0);
       useEffect(() => {
@@ -68,7 +71,71 @@ function DellosaAtheletePage()
 
 
 
-                        
+
+
+
+
+                        <div className="isap-container">
+
+                            <div className="isap-card">
+
+                                <div className="isap-header">
+                                <h2>Lacupanto, France Joseph F.</h2>
+                                <p>BS Entrepreneurship 1 - C</p>
+                                </div>
+
+                                <div className="isap-grid">
+
+                                {/* ATHLETE PROFILE */}
+                                <div className="isap-box">
+                                    <h3>Athlete Profile</h3>
+
+                                    <img
+                                    src={LacupantoProfile}
+                                    alt="Athlete Profile"
+                                    />
+                                </div>
+
+                                {/* PAR-Q */}
+                                <div className="isap-box">
+                                    <h3>PAR-Q</h3>
+
+                                    <img
+                                    src={LacupantoParq}
+                                    alt="PARQ"
+                                    />
+                                </div>
+
+                                </div>
+
+                                <p className="isap-note">
+                                The information provided in these documents is true and accurate to the best of the student's knowledge.
+                                </p>
+
+                            </div>
+
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
@@ -129,4 +196,4 @@ function DellosaAtheletePage()
     )
 }
 
-export default DellosaAtheletePage;
+export default LacupantoAthletePage;
