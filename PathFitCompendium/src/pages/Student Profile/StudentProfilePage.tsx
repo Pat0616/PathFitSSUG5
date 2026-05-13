@@ -3,6 +3,14 @@ import { GraduationCap } from 'lucide-react'
 import Sidebar from '../../components/SidebarComponent'
 import { useState, useRef, useEffect} from 'react';
 
+import DellosaImg from '../../assets/memberPortraits/Dellosa.png'
+import Despabiladeras from '../../assets/memberPortraits/Despibeladeras.png'
+import DonquilloImg from '../../assets/memberPortraits/Donquillo.png'
+import EstavilloImg from '../../assets/memberPortraits/Geneva.png'
+import FerrerasImg from '../../assets/memberPortraits/Ferreras.png'
+import GarraImg from '../../assets/memberPortraits/Garra.png'
+import LacupantoImg from '../../assets/memberPortraits/Lacupanto.png'
+
 function StudentProfilePage()
 {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -65,6 +73,127 @@ function StudentProfilePage()
                         </div>
                         </header>
                         </div>
+
+
+
+
+
+
+
+
+
+                        <div className='container'>
+                            <h1 className='title-studentprofile'>Student Athlete Profile && PARQ Assessment</h1>
+                            <div className='accent-line'></div>
+                            <p className='subtitle'></p>
+
+                            <div className="members-grid">
+
+                                <div className="member-card">
+                                    <div className="member-image">
+                                    <img src={DellosaImg} alt="Dellosa, Rodel C." />
+                                    </div>
+
+                                    <div className="member-details">
+                                    <h2>Dellosa, Rodel C.</h2>
+                                    <p>Bachelor of Science in Entrepreneurship</p>
+                                    <span>1 - C</span>
+                                    </div>
+                                </div>
+
+
+                                <div className="member-card">
+                                    <div className="member-image">
+                                    <img src={Despabiladeras} alt="Despabiladeras, Irene Joy E." />
+                                    </div>
+
+                                    <div className="member-details">
+                                    <h2>Despabiladeras, Irene Joy E.</h2>
+                                    <p>Bachelor of Science in Entrepreneurship</p>
+                                    <span>1 - C</span>
+                                    </div>
+                                </div>
+
+
+                                <div className="member-card">
+                                    <div className="member-image">
+                                    <img src={DonquilloImg} alt="Donquillo, John Lloyd D." />
+                                    </div>
+
+                                    <div className="member-details">
+                                    <h2>Donquillo, John Lloyd D.</h2>
+                                    <p>Bachelor of Science in Entrepreneurship</p>
+                                    <span>1 - C</span>
+                                    </div>
+                                </div>
+
+
+                                <div className="member-card">
+                                    <div className="member-image">
+                                    <img src={EstavilloImg} alt="Estavillo, Geneva M." />
+                                    </div>
+
+                                    <div className="member-details">
+                                    <h2>Estavillo, Geneva M.</h2>
+                                    <p>Bachelor of Science in Entrepreneurship</p>
+                                    <span>1 - C</span>
+                                    </div>
+                                </div>
+
+
+                                <div className="member-card">
+                                    <div className="member-image">
+                                    <img src={FerrerasImg} alt="Ferreras, Collete B." />
+                                    </div>
+
+                                    <div className="member-details">
+                                    <h2>Ferreras, Collete B.</h2>
+                                    <p>Bachelor of Science in Entrepreneurship</p>
+                                    <span>1 - C</span>
+                                    </div>
+                                </div>
+
+                                <div className="member-card">
+                                    <div className="member-image">
+                                    <img src={GarraImg} alt="Garra, Christian Lyle F." />
+                                    </div>
+
+                                    <div className="member-details">
+                                    <h2>Garra, Christian Lyle F.</h2>
+                                    <p>Bachelor of Science in Entrepreneurship</p>
+                                    <span>1 - C</span>
+                                    </div>
+                                </div>
+
+                                <div className="member-card">
+                                    <div className="member-image">
+                                    <img src={LacupantoImg} alt="Lacupanto, France Joseph F." />
+                                    </div>
+
+                                    <div className="member-details">
+                                    <h2>Lacupanto, France Joseph F.</h2>
+                                    <p>Bachelor of Science in Entrepreneurship</p>
+                                    <span>1 - C</span>
+                                    </div>
+                                </div>
+
+                                </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
