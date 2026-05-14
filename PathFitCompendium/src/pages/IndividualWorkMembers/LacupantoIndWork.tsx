@@ -140,11 +140,11 @@ function LacupantoWorksPage()
 
            
 
-        <footer className="footer">
+                <footer className="footer">
           <div className="footer-content">
-            <h2>PATHFIT 2 Compendium</h2>
+            <h2>PATHFIT 2 </h2>
 
-            <h3>Group 5 Final Project</h3>
+            <h3>Compendium Website Project</h3>
 
             <div className="footer-section">
               <h4>Institution</h4>
@@ -164,7 +164,7 @@ function LacupantoWorksPage()
 
             <div className="footer-bottom">
               <p>
-                © 2026 PATHFIT 2 Compendium Project. Group 5.
+                © 2026 PATHFIT 2 Compendium Website Project.
                 All rights reserved.
               </p>
 

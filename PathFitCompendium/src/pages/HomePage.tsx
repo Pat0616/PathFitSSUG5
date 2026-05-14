@@ -84,7 +84,7 @@ export default function HomePage() {
             {/* BODY */}
             <main className="main-content">
               <div className="portfolio-title">
-                <h4>PathFit 2 Group 5</h4>
+                <h4>PathFit 2 Final Output: Compendium Website Project</h4>
 
                 <p>
                   Empowering Wellness Through Movement, Discipline and Excellence
@@ -130,11 +130,11 @@ export default function HomePage() {
         </section>
 
         {/* FOOTER */}
-        <footer className="footer">
+                <footer className="footer">
           <div className="footer-content">
-            <h2>PATHFIT 2 Compendium</h2>
+            <h2>PATHFIT 2 </h2>
 
-            <h3>Group 5 Final Project</h3>
+            <h3>Compendium Website Project</h3>
 
             <div className="footer-section">
               <h4>Institution</h4>
@@ -154,7 +154,7 @@ export default function HomePage() {
 
             <div className="footer-bottom">
               <p>
-                © 2026 PATHFIT 2 Compendium Project. Group 5.
+                © 2026 PATHFIT 2 Compendium Website Project.
                 All rights reserved.
               </p>
 

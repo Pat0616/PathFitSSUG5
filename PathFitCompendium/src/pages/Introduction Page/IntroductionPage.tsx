@@ -113,33 +113,40 @@ function IntroductionPage() {
       </div>
 
       {/* FOOTER */}
-      <footer className="footer">
-        <div className="footer-content">
-          <h2>PATHFIT 2 Compendium</h2>
-          <h3>Group 5 Final Project</h3>
+              <footer className="footer">
+          <div className="footer-content">
+            <h2>PATHFIT 2 </h2>
 
-          <div className="footer-section">
-            <h4>Institution</h4>
-            <p>Sorsogon State University</p>
-            <p>College of Business and Management</p>
-            <p>Sorsogon City Campus</p>
-          </div>
+            <h3>Compendium Website Project</h3>
 
-          <div className="footer-section">
-            <h4>Course Details</h4>
-            <p>Physical Activity, Fitness, and Health 2</p>
-            <p>Semester 2, AY 2025-2026</p>
-            <p>Instructor: Ma'am Kate Baluyot</p>
-          </div>
+            <div className="footer-section">
+              <h4>Institution</h4>
 
-          <div className="footer-bottom">
-            <p>
-              © 2026 PATHFIT 2 Compendium Project. Group 5. All rights reserved.
-            </p>
-            <span>Submitted in fulfillment of course requirements</span>
+              <p>Sorsogon State University</p>
+              <p>College of Business and Management</p>
+              <p>Sorsogon City Campus</p>
+            </div>
+
+            <div className="footer-section">
+              <h4>Course Details</h4>
+
+              <p>Physical Activity, Fitness, and Health 2</p>
+              <p>Semester 2, AY 2025-2026</p>
+              <p>Instructor: Ma'am Kate Baluyot</p>
+            </div>
+
+            <div className="footer-bottom">
+              <p>
+                © 2026 PATHFIT 2 Compendium Website Project.
+                All rights reserved.
+              </p>
+
+              <span>
+                Submitted in fulfillment of course requirements
+              </span>
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
 
       {/* SIDEBAR */}
       <Sidebar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
